@@ -1,0 +1,4 @@
+shuf -i MIN-MAX -n COUNT 
+ 
+ 
+COUNT = amount of number in the output between MIN and MAX

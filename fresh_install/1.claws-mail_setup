@@ -1,0 +1,22 @@
+
+If using protonmail:
+
+Authorize in protonmail-bridge first!
+
+Preferences for the current account > Advanced:
+
+Set imap and smtp ports and enable folders
+
+
+Preferences > receiving > Check for new mail every ...
+
+Preferences > Writing > Automatically launch the external editor
+
+Preference > External Programs:
+
+Browser - qutebrowser '%s'
+
+Text editor - kitty -e nvim -f '%s'
+
+
+

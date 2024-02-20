@@ -1,0 +1,4 @@
+
+[Default Applications]
+application/pdf=org.pwmt.zathura.desktop
+x-scheme-handler/discord-413081698159296512=discord-413081698159296512.desktop

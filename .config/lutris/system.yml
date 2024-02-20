@@ -1,0 +1,7 @@
+system:
+  disable_compositor: true
+  game_path: /home/arch-mage/.local/opt
+  prime: true
+  pulse_latency: true
+  terminal: true
+  use_us_layout: true

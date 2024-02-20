@@ -1,0 +1,7 @@
+Login
+
+auto-connect-on
+
+lockdown-mode on
+
+mullvad bridge set location [country]

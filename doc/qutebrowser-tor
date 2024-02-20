@@ -1,0 +1,3 @@
+:set content.proxy socks://localhost:9050/ - enable tor 
+ 
+:set content.proxy none - disable tor

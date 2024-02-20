@@ -1,0 +1,6 @@
+
+tzselect - interactive  
+ 
+ln -sf /usr/share/zoneinfo/Zone/SubZone /etc/localtime - manual 
+ 
+timedatectl set-timezone Zone/subzone - systemd

@@ -1,0 +1,5 @@
+/etc/fstab
+
+change parameters for /boot mountpoint
+
+fmask=0137,dmask=0027

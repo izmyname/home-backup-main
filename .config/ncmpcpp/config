@@ -1,0 +1,36 @@
+mpd_music_dir = "~/mus"
+
+lyrics_directory = "~/.local/share/ncmpcpp_lyrics"
+
+visualizer_data_source = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_in_stereo = "yes"
+visualizer_type = "spectrum"
+visualizer_look = "+|"
+visualizer_color = cyan, blue, yellow
+lyrics_fetchers = azlyrics, genius, sing365, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, internet
+
+[header]
+header_visibility = "no"
+header_window_color = "default"
+volume_color = "magenta"
+state_line_color = "black"
+
+[statusbar]
+progressbar_look = "━━━"
+progressbar_color = "magenta"
+statusbar_visibility = "yes"
+progressbar_elapsed_color = "green"
+statusbar_color = "3"
+song_status_format = "{%t - %a}"
+#display_bitrate = yes
+
+[library]
+empty_tag_color = "red"
+
+[global]
+main_window_color = "magenta"
+centered_cursor = "yes"
+enable_window_title = "yes"
+external_editor = "nvim"
+startup_screen = visualizer
