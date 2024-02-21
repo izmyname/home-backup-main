@@ -110,7 +110,6 @@ proton-ge-custom
 protonmail-bridge-nogui
 protontricks-git
 python-adblock
-qt5-wayland
 qt5ct
 qt6ct
 qutebrowser
@@ -153,7 +152,6 @@ whois
 wine-gecko
 wine-mono
 xdg-desktop-portal-hyprland
-xorg-xwayland
 yt-dlp
 zathura-djvu
 zathura-pdf-mupdf
