@@ -126,7 +126,7 @@ sof-firmware
 sway-launcher-desktop
 swaybg
 swayidle
-swaylock
+swaylock-git
 telegram-desktop
 tlp
 tor
