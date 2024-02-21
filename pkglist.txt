@@ -95,7 +95,6 @@ ntfs-3g
 ntp
 nvidia-dkms
 nvidia-prime
-nvidia-settings
 opencl-nvidia
 otf-font-awesome
 p7zip
