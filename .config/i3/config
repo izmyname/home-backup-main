@@ -25,6 +25,7 @@ exec --no-startup-id dunst &
 exec --no-startup-id transmission-daemon
 exec_always --no-startup-id unclutter &
 exec --no-startup-id $i3lock
+exec --no-startup-id autotiling
 
 #closing the lid locks the screen
 bindcode 248 exec --no-startup-id $lockscreen
@@ -105,7 +106,7 @@ bindsym $mod+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 #bindsym $mod+x layout stacking
 #bindsym $mod+z layout tabbed
-bindsym $mod+x layout toggle split
+#bindsym $mod+x layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
