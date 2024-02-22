@@ -25,7 +25,7 @@ exec --no-startup-id dunst &
 exec --no-startup-id transmission-daemon
 exec_always --no-startup-id unclutter &
 exec --no-startup-id $i3lock
-exec --no-startup-id autotiling
+exec_always --no-startup-id autotiling
 
 #closing the lid locks the screen
 bindcode 248 exec --no-startup-id $lockscreen
