@@ -7,6 +7,7 @@ alsa-utils
 arch-audit
 aria2
 atool
+autotiling
 b43-fwcutter
 base
 base-devel
