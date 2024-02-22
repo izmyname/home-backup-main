@@ -191,6 +191,14 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+s move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+s scratchpad show
+
+
 #gaps and borders
 hide_edge_borders both
 default_border none
