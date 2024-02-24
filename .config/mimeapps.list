@@ -2,3 +2,12 @@
 [Default Applications]
 application/pdf=org.pwmt.zathura.desktop
 x-scheme-handler/discord-413081698159296512=discord-413081698159296512.desktop
+x-scheme-handler/nxm=vortex-steamtinkerlaunch-dl.desktop
+x-scheme-handler/nxm-protocol=vortex-steamtinkerlaunch-dl.desktop
+image/jpeg=swayimg.desktop
+image/jpg=swayimg.desktop
+image/png=swayimg.desktop
+image/gif=swayimg.desktop
+image/svg=swayimg.desktop
+image/webp=swayimg.desktop
+image/bmp=swayimg.desktop
