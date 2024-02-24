@@ -56,13 +56,13 @@ hunspell-ru
 hyprland-git
 i3-wm
 i3lock
-imv
 intel-ucode
 inxi
 iwd
 kitty-git
 kvantum
 lib32-gamemode
+lib32-nvidia-utils
 lib32-opencl-nvidia
 lib32-vkd3d
 libgsf
@@ -99,7 +99,7 @@ ntfs-3g
 ntp
 nvidia-dkms
 nvidia-prime
-nvidia-settings
+nvidia-settings-beta
 opencl-nvidia
 otf-font-awesome
 p7zip
@@ -133,6 +133,7 @@ sof-firmware
 sway-launcher-desktop
 swaybg
 swayidle
+swayimg
 swaylock-git
 telegram-desktop
 tlp
