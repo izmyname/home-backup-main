@@ -1,0 +1,9 @@
+autotiling
+i3-wm
+i3lock
+maim
+picom
+polybar
+unclutter
+xss-lock
+xwallpaper
