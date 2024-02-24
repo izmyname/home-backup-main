@@ -2,6 +2,7 @@ autotiling
 i3-wm
 i3lock
 maim
+nvidia-settings
 picom
 polybar
 unclutter
