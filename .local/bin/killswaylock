@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+#use this from another tty if swaylock freezes and gets unresponsive (Red Screen of death bug).
+pkill -USR1 swaylock
