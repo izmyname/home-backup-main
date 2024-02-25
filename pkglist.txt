@@ -7,7 +7,6 @@ alsa-utils
 arch-audit
 aria2
 atool
-autotiling
 b43-fwcutter
 base
 base-devel
@@ -54,8 +53,6 @@ hunspell-en_gb
 hunspell-en_us
 hunspell-ru
 hyprland-git
-i3-wm
-i3lock
 intel-ucode
 inxi
 iwd
@@ -76,7 +73,6 @@ logrotate
 lsp-plugins-lv2
 lsscsi
 lutris
-maim
 man-db
 man-pages
 materia-gtk-theme
@@ -106,12 +102,10 @@ p7zip
 papirus-icon-theme
 pass
 pavucontrol
-picom
 pipewire-alsa
 pipewire-pulse
 pkgstats
 polkit-kde-agent
-polybar
 proton-ge-custom
 protonmail-bridge-nogui
 protontricks-git
@@ -146,7 +140,6 @@ ttf-liberation
 tty-clock
 udiskie
 ufw
-unclutter
 units
 unrar
 unzip
@@ -160,8 +153,6 @@ whois
 wine-gecko
 wine-mono
 xdg-desktop-portal-hyprland
-xss-lock
-xwallpaper
 yt-dlp
 zathura-djvu
 zathura-pdf-mupdf
