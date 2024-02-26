@@ -17,7 +17,6 @@ bridge-utils
 brightnessctl
 chaotic-keyring
 chaotic-mirrorlist
-claws-mail
 dhclient
 dmidecode
 dmraid
@@ -107,7 +106,6 @@ pipewire-pulse
 pkgstats
 polkit-kde-agent
 proton-ge-custom
-protonmail-bridge-nogui
 protontricks-git
 python-adblock
 qt5ct
