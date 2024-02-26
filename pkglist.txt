@@ -58,7 +58,6 @@ iwd
 kitty-git
 kvantum
 lib32-gamemode
-lib32-nvidia-utils
 lib32-opencl-nvidia
 lib32-vkd3d
 libgsf
@@ -94,7 +93,8 @@ ntfs-3g
 ntp
 nvidia-dkms
 nvidia-prime
-nvidia-settings-beta
+nvidia-settings
+nvidia-utils
 opencl-nvidia
 otf-font-awesome
 p7zip
@@ -150,6 +150,7 @@ wget
 whois
 wine-gecko
 wine-mono
+xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 yt-dlp
 zathura-djvu
