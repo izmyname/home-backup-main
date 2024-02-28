@@ -4,7 +4,6 @@ font pango: monospace 12
 #set local variables in addition to /etc/environment
 set $mod Mod4
 set $menu  $TERMINAL -e sway-launcher-desktop
-set $mail claws-mail
 set $clock  $TERMINAL -e tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"
 set $wallpaper xwallpaper --center 'img/backgrounds/7.png' 
 set $i3lock  xss-lock --transfer-sleep-lock -- i3lock -i '/home/arch-mage/.local/share/lock.png' --nofork
@@ -35,7 +34,6 @@ bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 bindsym $mod+d exec --no-startup-id $menu 
 bindsym $mod+i exec --no-startup-id $sysmonitor
 bindsym $mod+w exec --no-startup-id $BROWSER
-bindsym $mod+m exec --no-startup-id $mail 
 bindsym $mod+t exec --no-startup-id $clock
 bindsym $mod+n exec --no-startup-id $filemanager
 bindsym $mod+e exec --no-startup-id $TERMINAL -e $EDITOR
