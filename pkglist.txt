@@ -17,6 +17,7 @@ bridge-utils
 brightnessctl
 chaotic-keyring
 chaotic-mirrorlist
+dconf-editor
 dhclient
 dmidecode
 dmraid
