@@ -1,8 +1,8 @@
 [ca/desrt/dconf-editor]
-saved-pathbar-path='/org/gnome/desktop/interface/'
+saved-pathbar-path='/org/gnome/desktop/interface/icon-theme'
 saved-view='/org/gnome/desktop/interface/'
 show-warning=false
-window-height=960
+window-height=954
 window-is-maximized=true
 window-width=954
 
@@ -567,6 +567,7 @@ band9-type='Bell'
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
 gtk-theme='Materia-dark-compact'
+icon-theme='Papirus-Dark'
 
 [org/gtk/settings/file-chooser]
 date-format='regular'
