@@ -1,22 +1,10 @@
 [ca/desrt/dconf-editor]
-saved-pathbar-path='/desktop/gnome/crypto/pgp/'
-saved-view='/desktop/'
+saved-pathbar-path='/org/gnome/desktop/interface/'
+saved-view='/org/gnome/desktop/interface/'
 show-warning=false
-window-height=963
+window-height=960
 window-is-maximized=true
 window-width=954
-
-[com/github/johnfactotum/Foliate/library]
-height=956
-maximized=false
-width=1896
-
-[com/github/johnfactotum/Foliate/window-state]
-fullscreen=false
-height=956
-last-file='/home/arch-mage/doc/Украинский язык для начинающих.pdf'
-maximized=false
-width=1896
 
 [com/github/wwmm/easyeffects]
 bypass=false
@@ -576,30 +564,9 @@ band9-slope='x1'
 band9-solo=false
 band9-type='Bell'
 
-[org/blueman/general]
-window-properties=[1900, 995, 10, 45]
-
-[org/blueman/plugins/powermanager]
-auto-power-on=@mb true
-
-[org/blueman/plugins/recentconns]
-recent-connections=[{'adapter': '20:4E:F6:7B:D8:AA', 'address': 'E0:D4:62:6F:B5:4E', 'alias': 'HUAWEI FreeBuds 4i', 'icon': 'audio-headset', 'name': 'Audio and input profiles', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1694643210.4159434', 'device': '/org/bluez/hci0/dev_E0_D4_62_6F_B5_4E'}]
-
-[org/gnome/charmap]
-font=@ms 'Font Awesome 6 Free 20'
-last-char=uint32 61463
-
-[org/gnome/charmap/window-state]
-fullscreen=false
-maximized=true
-size=(1080, 607)
-
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
 gtk-theme='Materia-dark-compact'
-
-[org/gnome/nm-applet]
-disable-connected-notifications=true
 
 [org/gtk/settings/file-chooser]
 date-format='regular'
