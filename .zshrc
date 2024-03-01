@@ -81,4 +81,4 @@ alias purgetrash='trash-empty -f'
 #display on startup
 cal
 
-cat ~/doc/to-do
+cat ~/Documents/to-do
