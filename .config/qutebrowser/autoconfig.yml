@@ -51,7 +51,7 @@ settings:
   content.register_protocol_handler:
     https://mail.proton.me#mailto=%25s: true
   downloads.location.directory:
-    global: ~/web
+    global: ~/Downloads
   downloads.location.suggestion:
     global: both
   downloads.position:
