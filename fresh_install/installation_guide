@@ -1,0 +1,15 @@
+I. copy dotfiles to /home/user directory.
+
+II. pacstrap -k base /mnt/
+
+III. launch chaotic-repo.sh
+
+IV. restore arch_system_config_ddmmyy (made with root-backup.sh).
+
+V. pacman -Syyu - < pkglist.txt
+
+VI. as user: dconf load / < dconf_settings_backup.txt
+
+VII. as user - launch setup.sh
+
+VIII. configure mullvad and create uefi boot entry
