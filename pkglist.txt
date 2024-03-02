@@ -7,7 +7,6 @@ alsa-utils
 arch-audit
 aria2
 atool
-b43-fwcutter
 base
 base-devel
 bash-completion
@@ -117,7 +116,6 @@ rebuild-detector
 reflector
 ripgrep
 rsync
-rtkit
 sddm-slice-git
 sg3_utils
 smartmontools
