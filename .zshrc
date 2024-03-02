@@ -40,7 +40,7 @@ if [ -f /usr/share/nnn/quitcd/quitcd.bash_sh_zsh ]; then
     source /usr/share/nnn/quitcd/quitcd.bash_sh_zsh
 fi
 
-export NNN_BMS='c:~/.config/;d:~/doc;w:~/web;o:~/.local/opt;s:~/.local/share/Steam/steamapps;a:~/app;'
+export NNN_BMS='c:~/.config/;o:~/.local/opt;s:~/.local/share/Steam/steamapps;l:~/.local/share;'
 export NNN_PLUG='m:mtpmount;p:preview-tui;f:fzopen;M:nmount;S:suedit;u:getplugs;g:gpge;G:gpgd;i:-!|mediainfo "$nnn";l:-!less -iR "$nnn"*;x:!&gio launch "$nnn";v:-!&swayimg "$nnn";s:-!|du -hs "$nnn";k:-!kitty +kitten icat "$nnn"'
 export NNN_TRASH=1
 BLK="04" CHR="04" DIR="04" EXE="00" REG="00" HARDLINK="00" SYMLINK="06" MISSING="00" ORPHAN="01" FIFO="0F" SOCK="0F" OTHER="02"
