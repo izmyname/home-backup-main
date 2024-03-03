@@ -140,6 +140,7 @@ wget
 whois
 wine-gecko
 wine-mono
+wl-clipboard
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 yt-dlp
