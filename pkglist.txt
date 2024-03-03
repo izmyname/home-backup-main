@@ -12,7 +12,6 @@ base-devel
 bash-completion
 bluez
 bluez-utils
-bridge-utils
 brightnessctl
 chaotic-keyring
 chaotic-mirrorlist
@@ -140,7 +139,6 @@ ufw
 units
 unrar
 unzip
-upower
 usb_modeswitch
 vkd3d
 vulkan-tools
