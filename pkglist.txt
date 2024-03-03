@@ -18,8 +18,6 @@ chaotic-mirrorlist
 dconf-editor
 dhclient
 dmidecode
-dmraid
-dnsmasq
 dosfstools
 downgrade
 dunst
@@ -60,9 +58,7 @@ lib32-gamemode
 lib32-opencl-nvidia
 lib32-vkd3d
 libgsf
-libopenraw
 libreoffice-fresh
-libwnck3
 linux-firmware
 linux-zen
 linux-zen-headers
@@ -76,7 +72,6 @@ materia-gtk-theme
 mediainfo
 mesa-utils
 mlocate
-modemmanager
 mpc
 mpd
 mpv
@@ -87,9 +82,7 @@ networkmanager
 nfs-utils
 nnn
 noto-fonts
-nss-mdns
 ntfs-3g
-ntp
 nvidia-dkms
 nvidia-prime
 nvidia-settings
