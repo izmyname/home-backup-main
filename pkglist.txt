@@ -99,7 +99,6 @@ polkit-kde-agent
 proton-ge-custom
 protontricks-git
 python-adblock
-qt5ct
 qt6ct
 qutebrowser
 rclone-git
