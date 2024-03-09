@@ -8,8 +8,17 @@ IV. restore arch_system_config_ddmmyy (made with root-backup.sh).
 
 V. pacman -Syyu - < pkglist.txt
 
-VI. as user: dconf load / < dconf_settings_backup.txt
+VI. Set root password: passwd root
 
-VII. as user - launch setup.sh
+VII. create non-privileged user:
 
-VIII. configure mullvad and create uefi boot entry
+useradd -m -G wheel,network,video -s /usr/bin/zsh username
+
+passwd username 
+
+
+VIII. as user: dconf load / < dconf_settings_backup.txt
+
+IX. as user - launch setup.sh
+
+X. configure mullvad and create uefi boot entry
