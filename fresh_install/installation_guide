@@ -16,9 +16,12 @@ useradd -m -G wheel,network,video,audio -s /usr/bin/zsh username
 
 passwd username 
 
+VIII. set localtime
 
-VIII. as user: dconf load / < dconf_settings_backup.txt
+ln -sf /usr/share/zoneinfo/Zone/SubZone /etc/localtime
 
-IX. as user - launch setup.sh
+IX. as user: dconf load / < dconf_settings_backup.txt
 
-X. configure mullvad and create uefi boot entry
+X. as user - launch setup.sh
+
+XI. configure mullvad and create uefi boot entry
