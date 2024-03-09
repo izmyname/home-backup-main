@@ -12,7 +12,7 @@ VI. Set root password: passwd root
 
 VII. create non-privileged user:
 
-useradd -m -G wheel,network,video -s /usr/bin/zsh username
+useradd -m -G wheel,network,video,audio -s /usr/bin/zsh username
 
 passwd username 
 
