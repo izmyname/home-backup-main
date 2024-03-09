@@ -1,4 +1,4 @@
-I. copy dotfiles to /home/user directory.
+I. copy this repo somewhere.
 
 II. pacstrap -k base /mnt/
 
@@ -8,20 +8,22 @@ IV. restore arch_system_config_ddmmyy (made with root-backup.sh).
 
 V. pacman -Syyu - < pkglist.txt
 
-VI. Set root password: passwd root
+VI. set localtime
 
-VII. create non-privileged user:
+ln -sf /usr/share/zoneinfo/Zone/SubZone /etc/localtime
+
+VII. Set root password: passwd root
+
+VIII. create non-privileged user:
 
 useradd -m -G wheel,network,video,audio -s /usr/bin/zsh username
 
 passwd username 
 
-VIII. set localtime
+IX. copy dotfiles to /home/username
 
-ln -sf /usr/share/zoneinfo/Zone/SubZone /etc/localtime
+X. as user: dconf load / < dconf_settings_backup.txt
 
-IX. as user: dconf load / < dconf_settings_backup.txt
-
-X. as user - launch setup.sh
+XI. as user - launch setup.sh
 
 XI. configure mullvad and create uefi boot entry
