@@ -34,6 +34,7 @@ gamemode
 geoip
 geoip-database-extra
 git
+greetd-tuigreet
 grim
 gst-libav
 gst-plugin-pipewire
@@ -105,7 +106,6 @@ rclone-git
 rebuild-detector
 reflector
 rsync
-sddm-slice-git
 sg3_utils
 smartmontools
 snapper
