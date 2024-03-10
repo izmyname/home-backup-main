@@ -2,11 +2,12 @@ I. copy this repo somewhere.
 
 II. pacstrap -k base /mnt/
 
-III. launch chaotic-repo.sh
+III.arch-chroot: launch chaotic-repo.sh
 
 IV. restore arch_system_config_ddmmyy (made with root-backup.sh).
 
-V. pacman -Syyu - < pkglist.txt
+
+V.arch-chroot:pacman-key --init, then pacman-key --populate, then pacman -Syyu - < pkglist.txt
 
 VI. set localtime
 
