@@ -111,10 +111,10 @@ smartmontools
 snapper
 sof-firmware
 sway-launcher-desktop
-swaybg
 swayidle
 swayimg
 swaylock-git
+swww
 telegram-desktop
 tlp
 tor
