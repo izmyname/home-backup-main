@@ -13,6 +13,8 @@ VI. set localtime
 
 ln -sf /usr/share/zoneinfo/Zone/SubZone /etc/localtime
 
+hwclock --systohc
+
 VII. Set root password: passwd root
 
 VIII. create non-privileged user:
