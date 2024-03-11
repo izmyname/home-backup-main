@@ -23,6 +23,8 @@ useradd -m -G wheel,network,video,audio -s /usr/bin/zsh username
 
 passwd username 
 
+uncomment wheel group sudo access using visudo
+
 IX. copy dotfiles to /home/username
 
 X. as user: dconf load / < dconf_settings_backup.txt
