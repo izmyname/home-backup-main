@@ -35,4 +35,4 @@ XII. as user: dconf load / < dconf_settings_backup.txt
 
 XIII. as user - launch setup.sh
 
-XI. configure mullvad and create uefi boot entry
+XIV. configure mullvad and create uefi boot entry
