@@ -25,10 +25,14 @@ passwd username
 
 uncomment wheel group sudo access using visudo
 
-IX. copy dotfiles to /home/username
+IX. /etc/locale.gen - uncomment en_US.UTF-8 UTF-8 and ru_RU.UTF-8 UTF-8, then run locale-gen
 
-X. as user: dconf load / < dconf_settings_backup.txt
+X. generate and edit /etc/fstab and edit /etc/kernel/cmdline
 
-XI. as user - launch setup.sh
+XI. copy dotfiles to /home/username
+
+XII. as user: dconf load / < dconf_settings_backup.txt
+
+XIII. as user - launch setup.sh
 
 XI. configure mullvad and create uefi boot entry
