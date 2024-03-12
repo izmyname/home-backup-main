@@ -38,6 +38,7 @@ settings:
   content.javascript.clipboard:
     aur.archlinux.org: access
     github.com: access
+    global: access
   content.javascript.enabled:
     global: true
   content.notifications.enabled:
