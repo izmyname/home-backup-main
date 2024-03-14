@@ -161,7 +161,7 @@
     },
 
     "hyprland/window": {
-        "format": " {}",
+        "format": "  {}",
         "max-length": 40
     },
 
