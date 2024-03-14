@@ -36,7 +36,6 @@
         "hyprland/language",
         "bluetooth",
 	"pulseaudio",
-	"mpd",
         "network",
         "battery",
         "tray",
