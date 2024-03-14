@@ -48,7 +48,7 @@
 
 /* The whole bar */
 #waybar {
-    background: #000000;
+    background: transparent;
     color: white;
     font-family: Cantarell, Noto Sans, sans-serif;
     font-size: 15px;
@@ -56,20 +56,33 @@
 
 /* Each module */
 #battery,
+#backlight,
+#disk,
 #clock,
 #cpu,
-#custom-keyboard-layout,
+#bluetooth,
 #memory,
 #mode,
 #network,
 #pulseaudio,
-#temperature,
+#mpd,
+#window,
+#workspaces,
+#language,
 #tray {
-    padding-left: 10px;
-    padding-right: 10px;
+  border-top: 1px solid #595959;	
+  border-left: 1px solid #595959;	
+  border-right: 1px solid #595959;	
+  border-bottom: 1px solid #595959;
+  border-radius: 5px;
+  background-color: #000000;
+  color: white;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+
 }
-
-
 /* -----------------------------------------------------------------------------
  * Module styles
  * -------------------------------------------------------------------------- */

@@ -16,7 +16,7 @@
     "position": "top",
 
     // If height property would be not present, it'd be calculated dynamically
-    "height": 30,
+    "height": 35,
 
     "modules-left": [
         "backlight",
@@ -154,9 +154,9 @@
 
     "network": {
         "interval": 5,
-        "format-wifi": " ", // Icon: wifi
-        "format-ethernet": " ", // Icon: ethernet
-        "format-disconnected": "⚠ ",
+        "format-wifi": "", // Icon: wifi
+        "format-ethernet": "", // Icon: ethernet
+        "format-disconnected": "⚠",
         "tooltip-format": "{ifname}:{essid} {ipaddr}"
     },
 
