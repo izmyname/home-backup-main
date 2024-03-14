@@ -65,6 +65,16 @@ alias git-pull-all='find . -maxdepth 3 -name .git -type d | rev | cut -c 6- | re
 alias makepkg-install-clean='makepkg -sric'
 alias cleanpkg='paccache -c $HOME/.cache/pacman/pkg/ -rk0'
 
+#directory shortcuts
+hash -d mus=$XDG_MUSIC_DIR
+hash -d doc=$XDG_DOCUMENTS_DIR
+hash -d web=$XDG_DOWNLOAD_DIR
+hash -d pic=$XDG_PICTURES_DIR
+hash -d vid=$XDG_VIDEOS_DIR
+hash -d cfg=$HOME/.config
+hash -d wallpapers=$HOME/.local/share/backgrounds
+hash -d loc=$HOME/.local/share
+
 #display on startup
 cal
 
