@@ -74,6 +74,8 @@ hash -d vid=$XDG_VIDEOS_DIR
 hash -d cfg=$HOME/.config
 hash -d wallpapers=$HOME/.local/share/backgrounds
 hash -d loc=$HOME/.local/share
+hash -d mtp=/run/user/1000/gvfs
+hash -d ext=/run/media
 
 #display on startup
 cal
