@@ -139,7 +139,7 @@ wine-gecko
 wine-mono
 wl-clipboard
 xdg-desktop-portal-gtk
-xdg-desktop-portal-hyprland
+xdg-desktop-portal-hyprland-git
 yt-dlp
 zathura-djvu
 zathura-pdf-mupdf
