@@ -46,6 +46,7 @@ gvfs-mtp
 haveged
 hdparm
 htop
+hunspell
 hunspell-en_gb
 hunspell-en_us
 hunspell-ru
@@ -115,7 +116,6 @@ swayidle
 swayimg
 swaylock-git
 swww
-telegram-desktop
 tlp
 translate-shell
 transmission-cli
