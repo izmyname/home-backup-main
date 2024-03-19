@@ -28,6 +28,7 @@ envycontrol
 ethtool
 exfatprogs
 ffmpegthumbnailer
+flatpak
 fwupd
 gamemode
 geoip
@@ -57,7 +58,6 @@ kvantum
 lib32-gamemode
 lib32-opencl-nvidia
 lib32-vkd3d
-libreoffice-fresh
 linux-firmware
 linux-zen
 linux-zen-headers
@@ -117,7 +117,6 @@ swaylock-git
 swww
 telegram-desktop
 tlp
-tor
 translate-shell
 transmission-cli
 trash-cli
