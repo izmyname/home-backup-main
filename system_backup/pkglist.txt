@@ -65,7 +65,6 @@ linux-zen-headers
 logrotate
 lsp-plugins-lv2
 lsscsi
-lutris
 mako
 man-db
 man-pages
