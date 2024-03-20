@@ -130,9 +130,6 @@ vulkan-tools
 waybar
 wget
 whois
-wine-gecko
-wine-mono
-winetricks
 wl-clipboard
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland-git
