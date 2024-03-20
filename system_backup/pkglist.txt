@@ -30,7 +30,6 @@ exfatprogs
 ffmpegthumbnailer
 flatpak
 fwupd
-gamemode
 geoip
 geoip-database-extra
 git
