@@ -107,7 +107,6 @@ sg3_utils
 smartmontools
 snapper
 sof-firmware
-steam
 sway-launcher-desktop
 swayidle
 swayimg
@@ -137,6 +136,7 @@ winetricks
 wl-clipboard
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland-git
+xdg-user-dirs
 yt-dlp
 zathura-djvu
 zathura-pdf-mupdf
