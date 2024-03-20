@@ -98,8 +98,6 @@ pipewire-alsa
 pipewire-pulse
 pkgstats
 polkit-kde-agent
-proton-ge-custom
-protontricks-git
 python-adblock
 qt6ct
 qutebrowser
@@ -111,6 +109,7 @@ sg3_utils
 smartmontools
 snapper
 sof-firmware
+steam
 sway-launcher-desktop
 swayidle
 swayimg
@@ -136,6 +135,7 @@ wget
 whois
 wine-gecko
 wine-mono
+winetricks
 wl-clipboard
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland-git
