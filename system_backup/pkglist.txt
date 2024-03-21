@@ -55,8 +55,6 @@ inxi
 iwd
 kitty-git
 kvantum
-lib32-opencl-nvidia
-lib32-vkd3d
 linux-firmware
 linux-zen
 linux-zen-headers
