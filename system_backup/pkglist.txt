@@ -55,7 +55,6 @@ inxi
 iwd
 kitty-git
 kvantum
-lib32-gamemode
 lib32-opencl-nvidia
 lib32-vkd3d
 linux-firmware
