@@ -72,7 +72,6 @@ mpc
 mpd
 mpv
 mullvad-vpn-cli
-ncmpcpp
 neovim
 networkmanager
 nfs-utils
