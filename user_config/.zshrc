@@ -76,6 +76,7 @@ hash -d wallpapers=$HOME/.local/share/backgrounds
 hash -d loc=$HOME/.local/share
 hash -d mtp=/run/user/1000/gvfs
 hash -d ext=/run/media
+hash -d opt=$HOME/.local/opt
 
 #display on startup
 cal
