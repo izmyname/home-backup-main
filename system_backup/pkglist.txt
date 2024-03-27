@@ -28,6 +28,7 @@ ethtool
 exfatprogs
 ffmpegthumbnailer
 flatpak
+fuzzel
 fwupd
 geoip
 geoip-database-extra
@@ -102,7 +103,6 @@ sg3_utils
 smartmontools
 snapper
 sof-firmware
-sway-launcher-desktop
 swayidle
 swayimg
 swaylock-git
