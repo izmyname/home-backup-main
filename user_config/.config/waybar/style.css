@@ -163,8 +163,9 @@
 }
 
 #pulseaudio.muted {
-    /* No styles */
+  color: grey;
 }
+
 
 
 #temperature {

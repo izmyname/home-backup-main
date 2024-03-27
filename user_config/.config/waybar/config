@@ -17,6 +17,8 @@
 
     // If height property would be not present, it'd be calculated dynamically
     "height": 35,
+    "margin-left": 20,
+    "margin-right": 10,
 
     "modules-left": [
         "backlight",
@@ -91,12 +93,12 @@
 
 "disk": {
     "interval": 5,
-    "format": "📂{percentage_used}%",
+    "format": "📂 {percentage_used}%",
     "path": "/"
 },
     "backlight": {
     "device": "intel_backlight",
-    "format": "{percent}% {icon}",
+    "format": "{icon} {percent}%",
     "format-icons": ["🌕", "🌔", "🌓", "🌒", "🌑"]
 },
 
