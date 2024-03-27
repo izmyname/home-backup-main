@@ -64,6 +64,7 @@ alias edit=nvim
 alias git-pull-all='find . -maxdepth 3 -name .git -type d | rev | cut -c 6- | rev | xargs -I {} git -C {} pull'
 alias makepkg-install-clean='makepkg -sric'
 alias cleanpkg='paccache -c $HOME/.cache/pacman/pkg/ -rk0'
+alias todo='cat ~/Documents/to-do'
 
 #directory shortcuts
 hash -d mus=$XDG_MUSIC_DIR
