@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+#use this to prevent transmission-daemon process from multiplying.
+
+killall -e transmission-daemon
+sleep 1
+/usr/bin/transmission-daemon &
+
