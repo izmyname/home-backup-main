@@ -65,6 +65,8 @@ alias git-pull-all='find . -maxdepth 3 -name .git -type d | rev | cut -c 6- | re
 alias makepkg-install-clean='makepkg -sric'
 alias cleanpkg='paccache -c $HOME/.cache/pacman/pkg/ -rk0'
 alias todo='cat ~/Documents/to-do'
+alias torrent='transmission-remote'
+alias transmission-daemon='$HOME/.local/bin/start-transmission'
 
 #directory shortcuts
 hash -d mus=$XDG_MUSIC_DIR
