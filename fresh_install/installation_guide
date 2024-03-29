@@ -31,10 +31,8 @@ X. generate and edit /etc/fstab and edit /etc/kernel/cmdline
 
 XI. copy dotfiles to /home/username
 
-XII. as user: dconf load / < dconf_settings_backup.txt
+XII. as user - launch setup.sh
 
-XIII. as user - launch setup.sh
+XIII. as user - chmod +x ~/.local/bin/*
 
-XIV. as user - chmod +x ~/.local/bin/*
-
-XV. configure mullvad and create uefi boot entry
+XIV. configure mullvad and create uefi boot entry
