@@ -82,6 +82,7 @@ nvidia-dkms
 nvidia-prime
 nvidia-settings
 nvidia-utils
+nwg-look
 opencl-nvidia
 otf-font-awesome
 p7zip
