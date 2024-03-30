@@ -67,6 +67,11 @@ alias cleanpkg='paccache -c $HOME/.cache/pacman/pkg/ -rk0'
 alias todo='cat ~/Documents/to-do'
 alias torrent='transmission-remote'
 alias transmission-daemon='$HOME/.local/bin/start-transmission'
+alias flatupd='flatpak update'
+alias flatpurge='flatpak uninstall --delete-data '
+alias flatlist='flatpak list --app'
+alias flatlistall='flatpak list'
+alias flatclean='flatpak uninstall --unused'
 
 #directory shortcuts
 hash -d mus=$XDG_MUSIC_DIR
