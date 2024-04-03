@@ -110,7 +110,6 @@ swaylock-git
 swww
 tlp
 translate-shell
-transmission-cli
 trash-cli
 ttf-dejavu
 ttf-liberation
