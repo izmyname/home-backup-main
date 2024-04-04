@@ -53,7 +53,6 @@ alias du='du -h'
 alias lstrash='trash-list'
 alias untrash='trash-restore'
 alias purgetrash='trash-empty -f'
-alias units='units -H '~/.cache/units_history' '
 alias inxi="inxi -c11"
 alias tty-clock='tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"'
 alias mpc="mpc -f '%position%. %Artist% %performer% - %title% (%Album% %date%)'"
