@@ -126,13 +126,11 @@
     "clock#time": {
         "interval": 1,
         "format": " {:%H:%M} ",
-        "tooltip-format": "{:%H:%M:%S (%Z)}"
     },
 
     "clock#date": {
       "interval": 10,
       "format": "  {:%a %e %b %Y}", // Icon: calendar-alt
-      "tooltip-format": "{:%A %e %B %Y}"
     },
 
     "cpu": {
