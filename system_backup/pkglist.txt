@@ -20,7 +20,6 @@ dmidecode
 dosfstools
 downgrade
 duperemove
-easyeffects
 efibootmgr
 efitools
 envycontrol
@@ -59,7 +58,6 @@ linux-firmware
 linux-zen
 linux-zen-headers
 logrotate
-lsp-plugins-lv2
 lsscsi
 mako
 man-db
