@@ -116,7 +116,6 @@ ttf-liberation
 tty-clock
 udiskie
 ufw
-units
 unrar
 unzip
 usb_modeswitch
