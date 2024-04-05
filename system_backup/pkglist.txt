@@ -91,9 +91,7 @@ pipewire-alsa
 pipewire-pulse
 pkgstats
 polkit-kde-agent
-python-adblock
 qt6ct
-qutebrowser
 rclone-git
 rebuild-detector
 reflector
