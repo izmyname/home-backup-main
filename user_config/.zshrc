@@ -26,7 +26,6 @@ export PATH=$HOME/.local/bin:$PATH
 export TERMINAL=kitty
 export EDITOR=nvim
 export VISUAL=$EDITOR
-export BROWSER=qutebrowser
 export RCLONE_PROGRESS=true
 export RCLONE_HUMAN_READABLE=true
 export NNN_BMS='c:~/.config/;o:~/.local/opt;l:~/.local/share;'
