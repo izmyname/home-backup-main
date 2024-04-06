@@ -184,6 +184,18 @@
     font-weight:bold; 
 }
 
+window#waybar.empty #window {
+    border: none;	
+    color: transparent;
+    background-color: transparent;
+}
+
+window#waybar.fullscreen #window {
+   border-color: orange;
+   background-color: red;
+}
+
+
 #workspaces button {
     border-top: 2px solid transparent;
     /* To compensate for the top border and still have vertical centering */
