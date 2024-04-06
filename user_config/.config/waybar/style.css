@@ -192,6 +192,7 @@ window#waybar.empty #window {
 
 window#waybar.fullscreen #window {
    border-color: orange;
+   color: #000000;
    background-color: red;
 }
 
