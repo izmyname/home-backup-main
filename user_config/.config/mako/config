@@ -10,7 +10,7 @@ default-timeout=5000
 layer=overlay
 
 
-background-color=#000000
+background-color=#000000CC
 border-color=#888888
 text-color=#d9d8d8
 
