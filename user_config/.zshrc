@@ -13,6 +13,18 @@ bindkey -v
 autoload -U colors && colors
 PS1="%{$fg[red]%}%D{%a %d %b} %D{%H:%M} %{$reset_color%}%{$fg[green]%}%n%{$reset_color%} %{$fg[blue]%}%~ %{$reset_color%}%{$fg[red]%}>%{$reset_color%}% "
 
+
+# Called before prompt(?)
+function precmd {
+    # Set window title
+    print -Pn "\e]0;%(1j,%j job%(2j|s|); ,)%~\e\\"
+}
+
+# Called when executing a command
+function preexec {
+    print -Pn "\e]0;${(q)1}\e\\"
+}
+
 #external configs
 source ~/.config/user-dirs.dirs
 
