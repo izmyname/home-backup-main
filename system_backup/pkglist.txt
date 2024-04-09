@@ -85,7 +85,6 @@ opencl-nvidia
 otf-font-awesome
 p7zip
 papirus-icon-theme
-pass
 pavucontrol
 pipewire-alsa
 pipewire-pulse
