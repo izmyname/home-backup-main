@@ -39,6 +39,7 @@ export EDITOR=nvim
 export VISUAL=$EDITOR
 export RCLONE_PROGRESS=true
 export RCLONE_HUMAN_READABLE=true
+export NNN_TERMINAL=foot
 export NNN_BMS='c:~/.config/;o:~/.local/opt;l:~/.local/share;'
 export NNN_PLUG='m:mtpmount;p:preview-tui;f:fzopen;M:nmount;S:suedit;u:getplugs;g:gpge;G:gpgd;i:-!|mediainfo "$nnn";l:-!less -iR "$nnn"*;x:!&gio launch "$nnn";v:-!&swayimg "$nnn";s:-!|du -hs "$nnn";w:-!&mpv "$nnn";'
 export NNN_TRASH=1
