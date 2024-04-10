@@ -13,6 +13,7 @@ bash-completion
 bluez
 bluez-utils
 brightnessctl
+chafa
 chaotic-keyring
 chaotic-mirrorlist
 dhclient
@@ -27,6 +28,8 @@ ethtool
 exfatprogs
 ffmpegthumbnailer
 flatpak
+foot
+foot-terminfo
 fuzzel
 fwupd
 geoip
@@ -52,7 +55,6 @@ hyprland-git
 intel-ucode
 inxi
 iwd
-kitty-git
 kvantum
 linux-firmware
 linux-zen
