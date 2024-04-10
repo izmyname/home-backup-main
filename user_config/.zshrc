@@ -2,7 +2,7 @@
 zstyle ':completion:*' completer _complete _ignored
 zstyle ':completion:*' max-errors 3
 zstyle ':completion:*' menu select
-autoload -Uz compinit
+autoload -Uz compinit add-zsh-hook
 compinit -d ~/.cache/zcompdump
 HISTFILE=~/.cache/zsh_history
 HISTSIZE=500
@@ -24,6 +24,18 @@ function precmd {
 function preexec {
     print -Pn "\e]0;${(q)1}\e\\"
 }
+
+#foot - spawn new terminal in the current working directory
+function osc7-pwd() {
+    emulate -L zsh # also sets localoptions for us
+    local LC_ALL=C
+    printf '\e]7;file://%s%s\e\' $HOST ${PWD//(#m)([^@-Za-z&-;_~])/%${(l:2::0:)$(([##16]#MATCH))}}
+}
+
+function chpwd-osc7-pwd() {
+    (( ZSH_SUBSHELL )) || osc7-pwd
+}
+add-zsh-hook -Uz chpwd chpwd-osc7-pwd
 
 #external configs
 source ~/.config/user-dirs.dirs
