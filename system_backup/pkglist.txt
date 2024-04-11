@@ -51,6 +51,7 @@ hunspell
 hunspell-en_gb
 hunspell-en_us
 hunspell-ru
+hypridle
 hyprland-git
 hyprlock
 intel-ucode
@@ -102,7 +103,6 @@ sg3_utils
 smartmontools
 snapper
 sof-firmware
-swayidle
 swayimg
 swww
 tlp
