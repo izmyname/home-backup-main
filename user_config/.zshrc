@@ -86,11 +86,14 @@ alias git-pull-all='find . -maxdepth 3 -name .git -type d | rev | cut -c 6- | re
 alias makepkg-install-clean='makepkg -sric'
 alias cleanpkg='paccache -c $HOME/.cache/pacman/pkg/ -rk0'
 alias todo='cat ~/Documents/to-do'
-alias flatupd='flatpak update'
-alias flatpurge='flatpak uninstall --delete-data '
+alias flatinstall='flatpak install --user'
+alias flatupd='flatpak update --user'
+alias flatpurge='flatpak uninstall --delete-data --user '
 alias flatlist='flatpak list --app'
 alias flatlistall='flatpak list'
-alias flatclean='flatpak uninstall --unused'
+alias flatclean='flatpak uninstall --unused --user'
+alias flatfix='flatpak repair --user'
+alias killhyprlock='pkill -USR1 hyprlock' #in case if the lockscreen freezes - login into another tty and execute the command'
 
 #directory shortcuts
 hash -d mus=$XDG_MUSIC_DIR
