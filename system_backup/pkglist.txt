@@ -52,6 +52,7 @@ hunspell-en_gb
 hunspell-en_us
 hunspell-ru
 hyprland-git
+hyprlock
 intel-ucode
 inxi
 iwd
@@ -103,7 +104,6 @@ snapper
 sof-firmware
 swayidle
 swayimg
-swaylock-git
 swww
 tlp
 translate-shell
