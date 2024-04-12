@@ -95,7 +95,7 @@ pipewire-pulse
 pkgstats
 polkit-kde-agent
 qt6ct
-rclone-git
+rclone
 rebuild-detector
 reflector
 rsync
