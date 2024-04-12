@@ -13,6 +13,7 @@ bindkey -v
 autoload -U colors && colors
 PS1="%{$fg[red]%}%D{%a %d %b} %D{%H:%M} %{$reset_color%}%{$fg[green]%}%n%{$reset_color%} %{$fg[blue]%}%~ %{$reset_color%}%{$fg[red]%}>%{$reset_color%}% "
 
+#shell functions
 
 # Called before prompt(?)
 function precmd {
@@ -37,13 +38,14 @@ function chpwd-osc7-pwd() {
 }
 add-zsh-hook -Uz chpwd chpwd-osc7-pwd
 
-#external configs
-source ~/.config/user-dirs.dirs
 
 #nnn quitcd 
 if [ -f /usr/share/nnn/quitcd/quitcd.bash_sh_zsh ]; then
     source /usr/share/nnn/quitcd/quitcd.bash_sh_zsh
 fi
+
+#source
+source ~/.config/user-dirs.dirs
 
 #environment variables
 export PATH=$HOME/.local/bin:$PATH
@@ -60,8 +62,8 @@ export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SO
 export NNN_ARCHIVE="\\.(7z|a|ace|alz|arc|arj|bz|bz2|cab|cpio|deb|gz|jar|lha|lz|lzh|lzma|lzo|rar|rpm|rz|t7z|tar|tbz|tbz2|tgz|tlz|txz|tZ|tzo|war|xpi|xz|Z|zip)$"
 export NNN_FIFO='/tmp/nnn.fifo'
 #export MPC_FORMAT='%position%. %Artist% %performer% - %title% (%Album% %date%)'
-export DIFFPROG='nvim -d'
-export PYTHONSTARTUP=~/.config/python/pythonrc
+export DIFFPROG='nvim -d'  #pacdiff
+export PYTHONSTARTUP=~/.config/python/pythonrc #save python history to ~/.cache
 
 
 #aliases
@@ -69,7 +71,6 @@ alias "ls=ls --color=auto"
 alias "grep=grep --color=auto"
 alias cal='cal -m'
 alias zzz='systemctl suspend'
-alias ZZZ='systemctl poweroff'
 alias df='df -h'
 alias free='free -h'
 alias du='du -h'
@@ -82,18 +83,20 @@ alias mpc="mpc -f '%position%. %Artist% %performer% - %title% (%Album% %date%)'"
 alias n='n -ex'
 alias nnn='n -ex'
 alias edit=nvim
-alias git-pull-all='find . -maxdepth 3 -name .git -type d | rev | cut -c 6- | rev | xargs -I {} git -C {} pull'
+alias git-pull-all='find . -maxdepth 3 -name .git -type d | rev | cut -c 6- | rev | xargs -I {} git -C {} pull' #pull all repos up to level 3 dir, at once.
 alias makepkg-install-clean='makepkg -sric'
 alias cleanpkg='paccache -c $HOME/.cache/pacman/pkg/ -rk0'
 alias todo='cat ~/Documents/to-do'
 alias flatinstall='flatpak install --user'
 alias flatupd='flatpak update --user'
-alias flatpurge='flatpak uninstall --delete-data --user '
+alias flatpurge='flatpak uninstall --delete-data --user'
 alias flatlist='flatpak list --app'
 alias flatlistall='flatpak list'
 alias flatclean='flatpak uninstall --unused --user'
 alias flatfix='flatpak repair --user'
 alias killhyprlock='pkill -USR1 hyprlock' #in case if the lockscreen freezes - login into another tty and execute the command'
+alias mpd-notification="mpd-notification -H localhost -p 6600 -m $XDG_MUSIC_DIR -s 150 -t 10"
+alias udiskie-umount='udiskie-umount -df'
 
 #directory shortcuts
 hash -d mus=$XDG_MUSIC_DIR
@@ -111,4 +114,4 @@ hash -d opt=$HOME/.local/opt
 #display on startup
 cal
 
-cat ~/Documents/to-do
+cat $XDG_DOCUMENTS_DIR/to-do
