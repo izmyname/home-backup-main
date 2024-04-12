@@ -1,0 +1,9 @@
+#environment variables
+export PATH=$HOME/.local/bin:$PATH
+export EDITOR=nvim
+export VISUAL=$EDITOR
+export RCLONE_PROGRESS=true
+export RCLONE_HUMAN_READABLE=true
+#export MPC_FORMAT='%position%. %Artist% %performer% - %title% (%Album% %date%)'
+export DIFFPROG='nvim -d'  #pacdiff
+export PYTHONSTARTUP=~/.config/python/pythonrc #save python history to ~/.cache

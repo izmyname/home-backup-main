@@ -1,0 +1,30 @@
+alias "ls=ls --color=auto"
+alias "grep=grep --color=auto"
+alias cal='cal -m'
+alias zzz='systemctl suspend'
+alias df='df -h'
+alias free='free -h'
+alias du='du -h'
+alias lstrash='trash-list'
+alias untrash='trash-restore'
+alias purgetrash='trash-empty -f'
+alias inxi="inxi -c11"
+alias tty-clock='tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"'
+alias mpc="mpc -f '%position%. %Artist% %performer% - %title% (%Album% %date%)'"
+alias n='n -ex'
+alias nnn='n -ex'
+alias edit=nvim
+alias git-pull-all='find . -maxdepth 3 -name .git -type d | rev | cut -c 6- | rev | xargs -I {} git -C {} pull' #pull all repos up to level 3 dir, at once.
+alias makepkg-install-clean='makepkg -sric'
+alias cleanpkg='paccache -c $HOME/.cache/pacman/pkg/ -rk0'
+alias todo='cat ~/Documents/to-do'
+alias flatinstall='flatpak install --user'
+alias flatupd='flatpak update --user'
+alias flatpurge='flatpak uninstall --delete-data --user'
+alias flatlist='flatpak list --app'
+alias flatlistall='flatpak list'
+alias flatclean='flatpak uninstall --unused --user'
+alias flatfix='flatpak repair --user'
+alias killhyprlock='pkill -USR1 hyprlock' #in case if the lockscreen freezes - login into another tty and execute the command'
+alias mpd-notification="mpd-notification -H localhost -p 6600 -m $XDG_MUSIC_DIR -s 150 -t 10"
+alias udiskie-umount='udiskie-umount -df'
