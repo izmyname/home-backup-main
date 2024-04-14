@@ -1,5 +1,5 @@
 zstyle ':completion:*' completer _complete _ignored
-zstyle ':completion:*' max-errors 3
+zstyle ':completion:*' max-errors 3 rehash true
 zstyle ':completion:*' menu select
 autoload -Uz compinit add-zsh-hook
 compinit -d ~/.cache/zcompdump

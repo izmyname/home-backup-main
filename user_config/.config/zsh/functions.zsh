@@ -21,6 +21,35 @@ function chpwd-osc7-pwd() {
 }
 add-zsh-hook -Uz chpwd chpwd-osc7-pwd
 
+#file manager keybinds
+
+cdUndoKey() {
+  popd
+  zle       reset-prompt
+  print
+  ls
+  zle       reset-prompt
+}
+
+cdParentKey() {
+  pushd ..
+  zle      reset-prompt
+  print
+  ls
+  zle       reset-prompt
+}
+
+zle -N                 cdParentKey
+zle -N                 cdUndoKey
+bindkey '^[[1;3A'      cdParentKey
+bindkey '^[[1;3D'      cdUndoKey
+
+#exit on partial command line
+exit_zsh() { exit }
+zle -N exit_zsh
+bindkey '^D' exit_zsh
+
+
 
 #nnn quitcd 
 if [ -f /usr/share/nnn/quitcd/quitcd.bash_sh_zsh ]; then
