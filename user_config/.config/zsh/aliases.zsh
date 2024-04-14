@@ -1,5 +1,6 @@
-alias "ls=ls --color=auto"
-alias "grep=grep --color=auto"
+alias ls='lsd'
+alias grep='rg'
+alias cat='bat'
 alias cal='cal -m'
 alias zzz='systemctl suspend'
 alias df='df -h'
