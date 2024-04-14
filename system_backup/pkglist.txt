@@ -21,6 +21,8 @@ dhclient
 dmidecode
 dosfstools
 downgrade
+dua-cli
+duf
 duperemove
 efibootmgr
 efitools
