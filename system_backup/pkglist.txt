@@ -79,7 +79,7 @@ mullvad-vpn-cli
 neovim
 networkmanager
 nfs-utils
-nnn
+nnn-nerd
 noto-fonts
 ntfs-3g
 nvidia-dkms
