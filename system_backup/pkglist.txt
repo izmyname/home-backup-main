@@ -51,7 +51,6 @@ haveged
 hdparm
 htop
 hunspell
-hunspell-en_gb
 hunspell-en_us
 hunspell-ru
 hypridle
@@ -115,7 +114,6 @@ translate-shell
 trash-cli
 ttf-dejavu
 ttf-dejavu-nerd
-ttf-liberation
 tty-clock
 udiskie
 ufw
