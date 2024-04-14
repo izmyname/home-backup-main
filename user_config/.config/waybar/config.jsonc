@@ -24,7 +24,7 @@
         "backlight",
         "memory",
         "cpu",
-	"disk",
+	"disk"
 
             ],
     "modules-center": [
@@ -40,7 +40,7 @@
 	"pulseaudio",
         "network",
         "battery",
-        "tray",
+        "tray"
             ],
 
 
@@ -99,7 +99,7 @@
     "backlight": {
     "device": "intel_backlight",
     "format": "{icon} {percent}%",
-    "format-icons": ["🌕", "🌔", "🌓", "🌒", "🌑"],
+    "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " "],
     "tooltip": false
 },
 
