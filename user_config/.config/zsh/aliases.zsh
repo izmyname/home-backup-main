@@ -1,6 +1,7 @@
 alias ls='lsd'
 alias grep='rg'
 alias cat='bat'
+alias less='bat'
 alias df='duf'
 alias du='dua'
 alias cal='cal -m'
