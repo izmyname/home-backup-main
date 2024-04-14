@@ -128,4 +128,5 @@ xdg-user-dirs
 yt-dlp
 zathura-djvu
 zathura-pdf-mupdf
+zoxide
 zsh-completions
