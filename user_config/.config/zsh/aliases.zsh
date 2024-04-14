@@ -27,3 +27,4 @@ alias flatfix='flatpak repair --user'
 alias killhyprlock='pkill -USR1 hyprlock' #in case if the lockscreen freezes - login into another tty and execute the command'
 alias mpd-notification="mpd-notification -H localhost -p 6600 -m $XDG_MUSIC_DIR -s 150 -t 10"
 alias udiskie-umount='udiskie-umount -df'
+alias img='img2sixel'
