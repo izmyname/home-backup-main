@@ -111,15 +111,15 @@
             "critical": 15
         },
         // Connected to AC
-        "format": "  {icon}  {capacity}%", // Icon: bolt
+        "format": " {icon}  {capacity}%", // Icon: bolt
         // Not connected to AC
         "format-discharging": "{icon}  {capacity}%",
         "format-icons": [
-            "", // Icon: battery-full
-            "", // Icon: battery-three-quarters
-            "", // Icon: battery-half
-            "", // Icon: battery-quarter
-            ""  // Icon: battery-empty
+            "  ", // Icon: battery-full
+            "  ", // Icon: battery-three-quarters
+            "  ", // Icon: battery-half
+            "  ", // Icon: battery-quarter
+            "  "  // Icon: battery-empty
         ],
         "tooltip": true
     },
@@ -136,7 +136,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "  {usage}% ", // Icon: microchip
+        "format": "   {usage}% ", // Icon: microchip
         "states": {
           "warning": 70,
           "critical": 90
@@ -154,8 +154,8 @@
 
     "network": {
         "interval": 5,
-        "format-wifi": "", // Icon: wifi
-        "format-ethernet": "", // Icon: ethernet
+        "format-wifi": " ", // Icon: wifi
+        "format-ethernet": " ", // Icon: ethernet
         "format-disconnected": "⚠",
         "tooltip-format": "{ifname}:{essid} {ipaddr}"
     },
@@ -179,13 +179,13 @@
         "format-bluetooth": "{icon}  {volume}%",
         "format-muted": "",
         "format-icons": {
-            "headphones": "",
-            "handsfree": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", ""]
+            "headphones": " ",
+            "handsfree": " ",
+            "headset": " ",
+            "phone": " ",
+            "portable": " ",
+            "car": " ",
+            "default": ["", "  "]
         },
         "on-click": "pavucontrol",
 	"ignored-sinks": ["Easy Effects Sink"]
