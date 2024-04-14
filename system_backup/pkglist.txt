@@ -112,7 +112,6 @@ swww
 tlp
 translate-shell
 trash-cli
-ttf-dejavu
 ttf-dejavu-nerd
 tty-clock
 udiskie
