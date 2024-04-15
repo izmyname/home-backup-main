@@ -85,7 +85,6 @@ noto-fonts
 ntfs-3g
 nvidia-dkms
 nvidia-prime
-nvidia-settings
 nvidia-utils
 nwg-look
 opencl-nvidia
