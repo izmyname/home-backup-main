@@ -70,11 +70,8 @@
 #workspaces,
 #language,
 #tray {
-/*border-top: 1px solid #595959;	
-  border-left: 1px solid #595959;	
-  border-right: 1px solid #595959;	
-  border-bottom: 1px solid #595959;*/ /*noirblaze*/
-  border: 1px solid #89b4fa; /*rose-pine*/
+/*border: 1px solid #595959;*/ /*noirblaze*/
+  border: 1px solid #89b4fa; /*rose-pine (catppuccin-mocha borders)*/
   border-radius: 5px;
   /*background-color: #121212*/ /*noirblaze*/
   background-color: #191724; /*rose-pine*/ 
