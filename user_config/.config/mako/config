@@ -1,3 +1,5 @@
+
+
 font=SF Pro Display 12
 width=350
 height=3500
@@ -10,10 +12,12 @@ default-timeout=5000
 layer=overlay
 
 
-background-color=#000000CC
-border-color=#888888
-text-color=#d9d8d8
+# Colors -catppuccin/rose-pine
+
+background-color=#191724
+text-color=#cdd6f4
+border-color=#89b4fa
+progress-color=over #313244
 
 [urgency=high]
-border-color=#ee2e24
-ignore-timeout=1
+border-color=#fab387
