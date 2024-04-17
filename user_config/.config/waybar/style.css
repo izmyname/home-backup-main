@@ -210,9 +210,12 @@ window#waybar.fullscreen #window {
 }
 
 #workspaces button.active {
-    border-color: white;
-    color: #000000;
-    background-color: white;
+    /*border-color: #d5d5d5;*/
+    /*color: #121212;*/
+    /*background-color: #d5d5d5;*/ /*noirblaze*/
+    border-color: #e0def4;
+    color: #191724;
+    background-color: #e0def4; /*rose-pine*/
 }
 
 #workspaces button.urgent {
