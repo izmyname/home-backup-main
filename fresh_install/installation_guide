@@ -38,4 +38,4 @@ XIV. configure mullvad and create uefi boot entry
 
 XV. create snapper config
 
-XVI. install and configure kvantum and gtk themes. Edit foot and waybar/style.css configs to apply themes.
+XVI. install and configure kvantum and gtk themes. Edit foot, mako, fuzzel and waybar/style.css configs to apply themes.
