@@ -14,6 +14,7 @@ bat
 bluez
 bluez-utils
 brightnessctl
+catppuccin-gtk-theme-mocha
 chafa
 chaotic-keyring
 chaotic-mirrorlist
@@ -60,6 +61,7 @@ intel-ucode
 inxi
 iwd
 kvantum
+kvantum-theme-materia
 linux-firmware
 linux-zen
 linux-zen-headers
