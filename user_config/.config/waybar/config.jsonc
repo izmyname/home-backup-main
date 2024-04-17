@@ -21,6 +21,7 @@
     "margin-right": 10,
 
     "modules-left": [
+	"battery",    
         "backlight",
         "memory",
         "cpu",
@@ -39,7 +40,6 @@
         "bluetooth",
 	"pulseaudio",
         "network",
-        "battery",
         "tray"
             ],
 
@@ -206,8 +206,8 @@
     },
 
     "tray": {
-        "icon-size": 21,
-        "spacing": 10
+        "icon-size": 18,
+        "spacing": 5
     }
 
 }
