@@ -37,3 +37,5 @@ XIII. as user - chmod +x ~/.local/bin/*
 XIV. configure mullvad and create uefi boot entry
 
 XV. create snapper config
+
+XVI. install and configure kvantum and gtk themes. Edit foot and waybar/style.css configs to apply themes.
