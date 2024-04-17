@@ -61,7 +61,6 @@ intel-ucode
 inxi
 iwd
 kvantum
-kvantum-theme-materia
 linux-firmware
 linux-zen
 linux-zen-headers
@@ -71,7 +70,6 @@ lsscsi
 mako
 man-db
 man-pages
-materia-gtk-theme
 mediainfo
 mesa-utils
 mlocate
