@@ -196,7 +196,7 @@ window#waybar.empty #window {
 window#waybar.fullscreen #window {
    border-color: #191724;
    color: #191724;
-   background-color: #e0def4;
+   background-color: #e0def4; /*rose-pine*/
 }
 
 
