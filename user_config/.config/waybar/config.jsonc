@@ -29,8 +29,6 @@
 
             ],
     "modules-center": [
-       "clock#date",
-        "clock#time",
         "hyprland/workspaces",
         "hyprland/window"
 
@@ -40,6 +38,8 @@
         "bluetooth",
 	"pulseaudio",
         "network",
+        "clock#date",
+        "clock#time",
         "tray"
             ],
 
@@ -85,7 +85,7 @@
 	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
 	"format": "",
 	"format-disabled": "", // an empty format will hide the module
-	"format-connected": " {device_alias}",
+	"format-connected": " {num_connections}",
 	"tooltip-format": "{controller_alias}\t{controller_address}",
 	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
 	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
@@ -126,12 +126,12 @@
 
     "clock#time": {
         "interval": 1,
-        "format": " {:%H:%M} ",
+        "format": " {:%H:%M} "
     },
 
     "clock#date": {
       "interval": 10,
-      "format": "  {:%a %e %b %Y}", // Icon: calendar-alt
+      "format": "  {:%a %e %b}" // Icon: calendar-alt
     },
 
     "cpu": {
