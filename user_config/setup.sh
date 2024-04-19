@@ -5,4 +5,4 @@
 
 mkdir  ~/.config/mpd/playlists ~/.local/state ~/.local/state/mpd
 
-systemctl enable --now --user pipewire-pulse.service pipewire.service mpd.service
+systemctl enable --now --user pipewire-pulse.service pipewire.service 
