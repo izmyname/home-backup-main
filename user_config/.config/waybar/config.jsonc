@@ -78,7 +78,9 @@
     "format": " {}",
     "format-en": "EN",
     "format-ru": "RU",
-    "keyboard-name": "at-translated-set-2-keyboard"
+    "keyboard-name": "at-translated-set-2-keyboard",
+    "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next"
+
 },
 
 "bluetooth": {
@@ -88,7 +90,8 @@
 	"format-connected": " {num_connections}",
 	"tooltip-format": "{controller_alias}\t{controller_address}",
 	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "foot -T 'bluetooth control' -e bluetoothctl"
 },
 
 "disk": {
