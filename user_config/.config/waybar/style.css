@@ -160,10 +160,12 @@
 }
 
 #pulseaudio {
-    /* No styles */
+  border-color: #eb6f92;	
+  color: #eb6f92;  /*rose-pine*/
 }
 
 #pulseaudio.muted {
+  border-color: #89b4fa; /*rose-pine*/	
   color: grey;
 }
 
@@ -221,3 +223,19 @@ window#waybar.fullscreen #window {
     color: #000000;
     background-color: red;
 }
+
+#bluetooth {
+	color:grey
+}
+
+#bluetooth.connected {
+	border-color: #f6c177;
+	color: #f6c177;  /*rose-pine*/
+
+}
+
+#language {
+        border-color: #c4a7e7; 
+	color: #c4a7e7; /*rose-pine*/
+}
+
