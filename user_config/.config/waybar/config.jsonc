@@ -91,7 +91,7 @@
 	"tooltip-format": "{controller_alias}\t{controller_address}",
 	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
 	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-        "on-click": "foot -T 'bluetooth control' -e bluetoothctl"
+        "on-click-right": "foot -T 'bluetooth control' -e bluetoothctl"
 },
 
 "disk": {
@@ -190,7 +190,8 @@
             "car": " ",
             "default": ["", "  "]
         },
-        "on-click": "pavucontrol",
+	"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle", 
+        "on-click-right": "pavucontrol",
 	"ignored-sinks": ["Easy Effects Sink"]
     },
 
