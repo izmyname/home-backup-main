@@ -12,9 +12,9 @@ default-timeout=5000
 layer=overlay
 
 
-# Colors -catppuccin/rose-pine
+# Colors -catppuccin - mocha
 
-background-color=#191724
+background-color=#1e1e2eCC
 text-color=#cdd6f4
 border-color=#89b4fa
 progress-color=over #313244
