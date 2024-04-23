@@ -10,7 +10,7 @@
 
     to {
         color: @text;
-        background-color: @yellow;
+        background-color: @peach;
     }
 }
 
@@ -86,7 +86,7 @@
 }
 
 #battery.warning {
-    color: @yellow;
+    color: @peach;
 }
 
 #battery.critical {
@@ -112,7 +112,7 @@
 }
 
 #cpu.warning {
-    color: @yellow;
+    color: @peach;
 }
 
 #cpu.critical {
@@ -126,7 +126,7 @@
 }
 
 #memory.warning {
-    color: @yellow;
+    color: @peach;
 }
 
 #memory.critical {
@@ -141,7 +141,7 @@
 }
 
 #network.disconnected {
-    color: @yellow;
+    color: @peach;
 }
 
 #pulseaudio {
@@ -202,7 +202,7 @@ window#waybar.fullscreen #window {
 }
 
 #workspaces button.urgent {
-    border-color: @yellow;
+    border-color: @peach;
     color: @base;
     background-color: @red;
 }
