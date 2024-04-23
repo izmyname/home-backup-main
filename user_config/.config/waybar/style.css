@@ -72,10 +72,10 @@
 #tray {
   border-radius: 5px;
   /*background-color: #121212*/ /*noirblaze*/
-  background-color: #191724; /*rose-pine*/ 
+  background-color: #1e1e2e; /*catppuccin-mocha*/ 
   opacity: 0.8;
   /*color: #d5d5d5;*/ /*noirblaze*/
-  color: #e0def4;   /*rose-pine*/
+  color: #cdd6f4;   /*catppuccin-mocha*/
   margin-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -190,9 +190,9 @@ window#waybar.empty #window {
 }
 
 window#waybar.fullscreen #window {
-   border-color: #191724;
-   color: #191724;
-   background-color: #e0def4; /*rose-pine*/
+   border-color: #1e1e2e;
+   color: #1e1e2e;
+   background-color: #cdd6f4; /*catppuccin*/
 }
 
 
@@ -209,13 +209,13 @@ window#waybar.fullscreen #window {
     /*border-color: #d5d5d5;*/
     /*color: #121212;*/
     /*background-color: #d5d5d5;*/ /*noirblaze*/
-    border-color: #e0def4;
-    color: #191724;
-    background-color: #e0def4; /*rose-pine*/
+    border-color: #cdd6f4;
+    color: #1e1e2e;
+    background-color: #cdd6f4; /*catppuccin*/
 }
 
 #workspaces button.urgent {
     border-color: orange;
     color: #000000;
-    background-color: red;
+    background-color: #f38ba8;
 }
