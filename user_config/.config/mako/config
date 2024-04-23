@@ -14,7 +14,7 @@ layer=overlay
 
 # Colors -catppuccin - mocha
 
-background-color=#1e1e2eCC
+background-color=#1e1e2eE6
 text-color=#cdd6f4
 border-color=#89b4fa
 progress-color=over #313244
