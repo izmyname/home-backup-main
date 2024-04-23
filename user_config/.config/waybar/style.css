@@ -1,34 +1,27 @@
-/* =============================================================================
- *
- * Waybar configuration
- *
- * Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
- *
- * =========================================================================== */
-
+@import "mocha.css";
 /* -----------------------------------------------------------------------------
  * Keyframes
  * -------------------------------------------------------------------------- */
 
 @keyframes blink-warning {
     70% {
-        color: white;
+        color: @text;
     }
 
     to {
-        color: white;
-        background-color: orange;
+        color: @text;
+        background-color: @yellow;
     }
 }
 
 @keyframes blink-critical {
     70% {
-      color: white;
+      color: @text;
     }
 
     to {
-        color: white;
-        background-color: red;
+        color: @text;
+        background-color: @red;
     }
 }
 
@@ -49,7 +42,7 @@
 /* The whole bar */
 #waybar {
     background: transparent;
-    color: white;
+    color: @text;
     font-family: Cantarell, Noto Sans, sans-serif;
     font-size: 14px;
 }
@@ -72,10 +65,10 @@
 #tray {
   border-radius: 5px;
   /*background-color: #121212*/ /*noirblaze*/
-  background-color: #1e1e2e; /*catppuccin-mocha*/ 
+  background-color: @base;
   opacity: 0.8;
   /*color: #d5d5d5;*/ /*noirblaze*/
-  color: #cdd6f4;   /*catppuccin-mocha*/
+  color: @text;   /*catppuccin-mocha*/
   margin-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -93,11 +86,11 @@
 }
 
 #battery.warning {
-    color: orange;
+    color: @yellow;
 }
 
 #battery.critical {
-    color: red;
+    color: @red;
 }
 
 #battery.warning.discharging {
@@ -119,11 +112,11 @@
 }
 
 #cpu.warning {
-    color: orange;
+    color: @yellow;
 }
 
 #cpu.critical {
-    color: red;
+    color: @red;
 }
 
 #memory {
@@ -133,28 +126,22 @@
 }
 
 #memory.warning {
-    color: orange;
+    color: @yellow;
 }
 
 #memory.critical {
-    color: red;
+    color: @red;
     animation-name: blink-critical;
     animation-duration: 2s;
 }
 
-#mode {
-    background: #64727D;
-    border-top: 2px solid white;
-    /* To compensate for the top border and still have vertical centering */
-    padding-bottom: 2px;
-}
 
 #network {
     /* No styles */
 }
 
 #network.disconnected {
-    color: orange;
+    color: @yellow;
 }
 
 #pulseaudio {
@@ -162,7 +149,7 @@
 }
 
 #pulseaudio.muted {
-  color: grey;
+  color: @teal;
 }
 
 
@@ -172,7 +159,7 @@
 }
 
 #temperature.critical {
-    color: red;
+    color: @red;
 }
 
 #tray {
@@ -190,9 +177,9 @@ window#waybar.empty #window {
 }
 
 window#waybar.fullscreen #window {
-   border-color: #1e1e2e;
-   color: #1e1e2e;
-   background-color: #cdd6f4; /*catppuccin*/
+   border-color: @base;
+   color: @base;
+   background-color: @text; /*catppuccin*/
 }
 
 
@@ -202,20 +189,20 @@ window#waybar.fullscreen #window {
     padding-bottom: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    color: white;
+    color: @text;
 }
 
 #workspaces button.active {
     /*border-color: #d5d5d5;*/
     /*color: #121212;*/
     /*background-color: #d5d5d5;*/ /*noirblaze*/
-    border-color: #cdd6f4;
-    color: #1e1e2e;
-    background-color: #cdd6f4; /*catppuccin*/
+    border-color: @text;
+    color: @base;
+    background-color: @text; /*catppuccin*/
 }
 
 #workspaces button.urgent {
-    border-color: orange;
-    color: #000000;
-    background-color: #f38ba8;
+    border-color: @yellow;
+    color: @base;
+    background-color: @red;
 }
