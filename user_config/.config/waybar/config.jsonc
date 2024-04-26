@@ -190,7 +190,7 @@
             "car": " ",
             "default": ["", "  "]
         },
-	"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle", 
+	"on-click": "wpctl set-mute @DEFAULT_SINK@ toggle", 
         "on-click-right": "pavucontrol",
 	"ignored-sinks": ["Easy Effects Sink"]
     },
@@ -212,6 +212,17 @@
     "tray": {
         "icon-size": 18,
         "spacing": 5
-    }
+    },
+
+    "wireplumber": {
+    "format": "{icon}  {volume}%",
+    "format-bluetooth": "{icon}  {volume}%",
+    "format-muted": "",
+    "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
+    "on-click-right": "pavucontrol",
+    "max-volume": 130,
+    "format-icons": ["", "", ""],
+    "ignored-sinks": ["Easy Effects Sink"]
+}
 
 }
