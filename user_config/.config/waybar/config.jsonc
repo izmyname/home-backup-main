@@ -191,7 +191,8 @@
             "default": ["", "  "]
         },
 	"on-click": "wpctl set-mute @DEFAULT_SINK@ toggle", 
-        "on-click-right": "flatpak run org.pulseaudio.pavucontrol",
+        "on-click-right": "flatpak run org.pipewire.Helvum",
+	"on-click-middle": "flatpak run com.github.wwmm.easyeffects", 
 	"ignored-sinks": ["Easy Effects Sink"]
     },
 
@@ -216,10 +217,10 @@
 
     "wireplumber": {
     "format": "{icon}  {volume}%",
-    "format-bluetooth": "{icon}  {volume}%",
     "format-muted": "",
     "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
-    "on-click-right": "flatpak run org.pulseaudio.pavucontrol",
+    "on-click-right": "flatpak run org.pipewire.Helvum",
+    "on-click-middle": "flatpak run com.github.wwmm.easyeffects", 
     "max-volume": 130,
     "format-icons": ["", "", ""],
     "ignored-sinks": ["Easy Effects Sink"]
