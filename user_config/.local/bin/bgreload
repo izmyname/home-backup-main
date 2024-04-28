@@ -1,6 +1,0 @@
- #!/usr/bin/env bash
-
-killall -e hyprpaper &
-sleep 1
-hyprpaper &
-
