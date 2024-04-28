@@ -4,7 +4,6 @@ hash -d web=$XDG_DOWNLOAD_DIR
 hash -d pic=$XDG_PICTURES_DIR
 hash -d vid=$XDG_VIDEOS_DIR
 hash -d cfg=$HOME/.config
-hash -d bgs=$HOME/.local/share/backgrounds
 hash -d loc=$HOME/.local/share
 hash -d mtp=/run/user/1000/gvfs
 hash -d ext=/run/media
