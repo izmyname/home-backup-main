@@ -134,7 +134,26 @@
 
     "clock#date": {
       "interval": 10,
-      "format": "  {:%a %e %b}" // Icon: calendar-alt
+      "format": "  {:%a %e %b}", // Icon: calendar-alt
+      "locale": "en_GB.UTF-8",
+       "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+                    "mode"          : "month",
+                    "mode-mon-col"  : 3,
+                    "weeks-pos"     : "right",
+                    "on-scroll"     : 1,
+                    "format": {
+                              "months":     "<span color='#ffead3'><b>{}</b></span>",
+                              "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                              "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                              "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                              "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+                              }
+                    },
+        "actions":  {
+                    "on-click-right": "mode"
+                    }
+    
     },
 
     "cpu": {
@@ -222,8 +241,7 @@
     "on-click-right": "flatpak run org.pipewire.Helvum",
     "on-click-middle": "flatpak run com.github.wwmm.easyeffects", 
     "max-volume": 130,
-    "format-icons": ["", "", ""],
-    "ignored-sinks": ["Easy Effects Sink"]
+    "format-icons": ["", "", ""]
 }
 
 }
