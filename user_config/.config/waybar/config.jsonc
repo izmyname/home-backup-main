@@ -21,6 +21,7 @@
     "margin-right": 10,
 
     "modules-left": [
+	"custom/arch",
         "hyprland/workspaces",
         "hyprland/window"
 
@@ -39,7 +40,6 @@
 
     // -------------------------------------------------------------------------
     // Module Groups
-    // -------------------------------------------------------------------------
     // -------------------------------------------------------------------------
 "group/hardware": {
 		"orientation": "inherit",
@@ -81,6 +81,7 @@
 
 },
 
+    // -------------------------------------------------------------------------
     // Modules
     // -------------------------------------------------------------------------
 
@@ -278,6 +279,13 @@
     "on-click-middle": "flatpak run com.github.wwmm.easyeffects", 
     "max-volume": 130,
     "format-icons": ["", "", ""]
-}
+},
+
+    "custom/arch": {
+      "format": " ",
+      "tooltip": false,
+      "on-click": "fuzzel",
+      "on-click-right": "footclient"
+    }       
 
 }
