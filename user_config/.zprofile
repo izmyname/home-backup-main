@@ -1,4 +1,4 @@
 emulate sh -c 'source /etc/profile'
 
-#start tty1 - Hyprland
+#autostart graphical session from tty1, after logging in. 
 [ "$(tty)" = "/dev/tty1" ] && exec Hyprland
