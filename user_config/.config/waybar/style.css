@@ -48,17 +48,10 @@
 }
 
 /* Each module */
-#battery,
-#backlight,
+#hardware,
+#indicators,
 #disk,
-#clock,
-#cpu,
-#bluetooth,
-#memory,
-#mode,
-#network,
-#pulseaudio,
-#wireplumber,
+#time,
 #mpd,
 #window,
 #workspaces,
@@ -104,8 +97,8 @@
     animation-duration: 2s;
 }
 
-#clock {
-    font-weight: normal;
+#time {
+    border-left: 1px solid @blue;
 }
 
 #cpu {
@@ -213,4 +206,8 @@ window#waybar.fullscreen #window {
     border-color: @peach;
     color: @base;
     background-color: @red;
+}
+
+#hardware {
+	border-left: 1px solid @blue;
 }

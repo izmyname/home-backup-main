@@ -21,30 +21,66 @@
     "margin-right": 10,
 
     "modules-left": [
-	"battery",    
-        "backlight",
-        "memory",
-        "cpu",
-	"disk"
-
-            ],
-    "modules-center": [
-        "tray",
         "hyprland/workspaces",
         "hyprland/window"
 
+            ],
+    "modules-center": [
+        "group/time"
     ],
     "modules-right": [
+        "tray",
+	"group/hardware",    
+	"disk",
         "hyprland/language",
-        "bluetooth",
-	"pulseaudio",
-        "network",
-        "clock#date",
-        "clock#time"
+	"group/indicators"
             ],
 
 
     // -------------------------------------------------------------------------
+    // Module Groups
+    // -------------------------------------------------------------------------
+    // -------------------------------------------------------------------------
+"group/hardware": {
+		"orientation": "inherit",
+ "drawer": {
+        "transition-duration": 500,
+        "children-class": "not-power",
+        "transition-left-to-right": false
+    },
+		"modules": [
+			"battery",
+			"backlight",
+			"memory",
+			"cpu"
+		]
+	},
+
+"group/indicators":{
+	"orientation": "inherit",
+	     "modules": [
+		     "bluetooth",
+		     "pulseaudio",
+		     /*"wireplumber,*/
+		     "network"
+
+	     ]
+	},
+
+"group/time": {
+	"orientation": "inherit",
+ "drawer": {
+        "transition-duration": 500,
+        "children-class": "not-power",
+        "transition-left-to-right": false
+    },
+	     "modules": [
+		     "clock#time",
+		     "clock#date"
+	     ]
+
+},
+
     // Modules
     // -------------------------------------------------------------------------
 
@@ -85,9 +121,9 @@
 
 "bluetooth": {
 	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
-	"format": "",
+	"format": "  ",
 	"format-disabled": "", // an empty format will hide the module
-	"format-connected": " {num_connections}",
+	"format-connected": " {num_connections}  ",
 	"tooltip-format": "{controller_alias}\t{controller_address}",
 	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
 	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
@@ -101,7 +137,7 @@
 },
     "backlight": {
     "device": "intel_backlight",
-    "format": "{icon} {percent}%",
+    "format": "{icon} {percent}%  ",
     "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " "],
     "tooltip": false
 },
@@ -134,7 +170,7 @@
 
     "clock#date": {
       "interval": 10,
-      "format": "  {:%a %e %b}", // Icon: calendar-alt
+      "format": "  {:%a %e %b}   ", // Icon: calendar-alt
       "locale": "en_GB.UTF-8",
        "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
@@ -158,7 +194,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "   {usage}% ", // Icon: microchip
+        "format": "   {usage}%  ", // Icon: microchip
         "states": {
           "warning": 70,
           "critical": 90
@@ -167,7 +203,7 @@
 
        "memory": {
         "interval": 5,
-        "format": "  {}%", // Icon: memory
+        "format": "  {}%  ", // Icon: memory
         "states": {
             "warning": 70,
             "critical": 90
@@ -184,7 +220,7 @@
 
     "hyprland/window": {
         "format": "  {}",
-        "max-length": 30
+        "max-length": 40
     },
 
     "hyprland/workspaces": {
@@ -197,9 +233,9 @@
 
     "pulseaudio": {
         //"scroll-step": 1,
-        "format": "{icon}  {volume}%",
-        "format-bluetooth": "{icon}  {volume}%",
-        "format-muted": "",
+        "format": "{icon}  {volume}% ",
+        "format-bluetooth": "{icon}  {volume}% ",
+        "format-muted": " ",
         "format-icons": {
             "headphones": " ",
             "handsfree": " ",
@@ -235,8 +271,8 @@
     },
 
     "wireplumber": {
-    "format": "{icon}  {volume}%",
-    "format-muted": "",
+    "format": "{icon}  {volume}% ",
+    "format-muted": " ",
     "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
     "on-click-right": "flatpak run org.pipewire.Helvum",
     "on-click-middle": "flatpak run com.github.wwmm.easyeffects", 
