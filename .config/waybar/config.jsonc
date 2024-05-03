@@ -32,7 +32,6 @@
     "modules-right": [
         "tray",
 	"group/hardware",    
-	"disk",
         "hyprland/language",
 	"group/indicators"
             ],
@@ -52,7 +51,8 @@
 			"battery",
 			"backlight",
 			"memory",
-			"cpu"
+			"cpu",
+			"disk"
 		]
 	},
 
@@ -133,7 +133,7 @@
 
 "disk": {
     "interval": 5,
-    "format": "📂 {percentage_used}%",
+    "format": "  📂 {percentage_used}%  ",
     "path": "/"
 },
     "backlight": {
