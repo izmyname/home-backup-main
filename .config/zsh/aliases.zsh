@@ -27,7 +27,6 @@ alias flatclean='flatpak uninstall --unused --user'
 alias flatfix='flatpak repair --user'
 alias killhyprlock='pkill -USR1 hyprlock' #in case if the lockscreen freezes - login into another tty and execute the command'
 alias mpd-notification="mpd-notification -H localhost -p 6600 -m $XDG_MUSIC_DIR -s 150 -t 10 & disown"
-alias img='img2sixel'
 alias easyeffects-daemon='flatpak run com.github.wwmm.easyeffects --gapplication-service & disown'
 alias pacpurge='sudo pacman -Rns'
 alias pacclean='pacman -Qtdq | sudo pacman -Rns - ; pacman -Qqd | sudo pacman -Rsu -'
