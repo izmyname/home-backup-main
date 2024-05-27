@@ -13,4 +13,4 @@ stty start undef
 stty stop undef
 
 # Start nnn with your preferred options
-nnn -ex "$@"
+nnn "$@"

@@ -1,3 +1,4 @@
+export NNN_OPTS='ex'
 export NNN_TERMINAL='foot -T preview-tui'
 export NNN_ICONLOOKUP=1
 export NNN_BMS='c:~/.config/;o:~/.local/opt;l:~/.local/share;'
