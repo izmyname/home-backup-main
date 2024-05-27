@@ -1,4 +1,5 @@
 export NNN_TERMINAL='foot -T preview-tui'
+export NNN_ICONLOOKUP=1
 export NNN_BMS='c:~/.config/;o:~/.local/opt;l:~/.local/share;'
 export NNN_PLUG='m:mtpmount;p:preview-tui;f:fzopen;M:nmount;S:suedit;u:getplugs;g:gpge;G:gpgd;i:-!|mediainfo "$nnn";l:-!bat --paging=always "$nnn"*;x:!&gio launch "$nnn";v:-!&swayimg "$nnn";s:-!dua "$nnn";w:-!&mpv "$nnn";a:autojump;'
 export NNN_TRASH=1
