@@ -1,0 +1,6 @@
+ /etc/systemd/system/getty@tty1.service.d/username.conf
+
+
+ [Service]
+ ExecStart=
+ ExecStart=-/sbin/agetty -o '-p -- username' --noclear --skip-login - $TERM
