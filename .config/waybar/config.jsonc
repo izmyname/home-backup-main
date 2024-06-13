@@ -277,7 +277,7 @@
     "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
     "on-click-right": "flatpak run org.pipewire.Helvum",
     "on-click-middle": "flatpak run com.github.wwmm.easyeffects", 
-    "max-volume": 130,
+    "max-volume": 100,
     "format-icons": ["", "", ""]
 },
 
