@@ -10,4 +10,4 @@ setopt autocd extendedglob notify correct
 unsetopt beep
 bindkey -v
 autoload -U colors && colors
-PS1="%{$fg[red]%}%D{%a %d %b} %D{%H:%M} %{$reset_color%}%{$fg[green]%}%n%{$reset_color%} %{$fg[blue]%}%~ %{$reset_color%}%{$fg[red]%}>%{$reset_color%}% "
+PS1="%{$fg[magenta]%}%D{%a %d %b} %D{%H:%M} %{$reset_color%}%{$fg[cyan]%}%n%{$reset_color%} %{$fg[blue]%}%~ %{$reset_color%}%{$fg[white]%}>%{$reset_color%}% "
