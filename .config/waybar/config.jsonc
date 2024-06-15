@@ -232,6 +232,25 @@
 	
     },
 
+    
+"wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 16,
+    "icon-theme": "Papirus-Dark",
+    "tooltip-format": "{title}",
+    "active-first": false,
+    "sort-by-app-id": true,
+    "on-click": "minimize-raise",
+    "on-click-middle": "close",
+    "on-click-right": "maximize",
+    "ignore-list": [
+    ],
+    "app_ids-mapping": {
+    },
+    "rewrite": {
+    }
+},
+
     "pulseaudio": {
         //"scroll-step": 1,
         "format": "{icon}  {volume}% ",
@@ -286,20 +305,5 @@
       "tooltip": false
     }       
 
-},
-
-"wlr/taskbar": {
-    "format": "{icon}{state}  ",
-    "icon-size": 14,
-    "icon-theme": "Papirus-Dark",
-    "tooltip-format": "{title}",
-    "active-first": true,
-    "on-click": "activate",
-    "on-click-middle": "close",
-    "ignore-list": [
-    ],
-    "app_ids-mapping": {
-    },
-    "rewrite": {
-    }
 }
+
