@@ -5,7 +5,9 @@ source ~/.config/zsh/nnn_vars.zsh
 source ~/.config/zsh/vars.zsh
 source ~/.config/zsh/aliases.zsh
 source ~/.config/zsh/hashd.zsh
-source ~/.config/zsh/greet.zsh
 
 #zoxide
 eval "$(zoxide init --cmd cd zsh)"
+
+#display on startup
+cal
