@@ -58,7 +58,7 @@
 #language,
 #taskbar,
 #tray {
-  border-radius: 5px;
+  border-radius: 10px;
   /*background-color: #121212*/ /*noirblaze*/
   background-color: @base;
   opacity: 0.8;
