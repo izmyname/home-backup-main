@@ -100,7 +100,7 @@
 }
 
 #time {
-    border-left: 1px solid @blue;
+  /* No styles */
 }
 
 #cpu {
