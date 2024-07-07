@@ -50,6 +50,7 @@
 /* Each module */
 #custom-arch,
 #hardware,
+#hardware2,
 #indicators,
 #time,
 #mpd,
@@ -207,10 +208,6 @@ window#waybar.fullscreen #window {
     border-color: @peach;
     color: @base;
     background-color: @red;
-}
-
-#hardware {
-	border-left: 1px solid @blue;
 }
 
 #taskbar button {

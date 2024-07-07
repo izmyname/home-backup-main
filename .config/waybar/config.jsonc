@@ -31,6 +31,7 @@
     ],
     "modules-right": [
         "tray",
+    "group/hardware2",
 	"group/hardware",    
         "hyprland/language",
 	"group/indicators"
@@ -42,14 +43,16 @@
     // -------------------------------------------------------------------------
 "group/hardware": {
 		"orientation": "inherit",
- "drawer": {
-        "transition-duration": 500,
-        "children-class": "not-power",
-        "transition-left-to-right": false
-    },
 		"modules": [
-			"battery",
 			"backlight",
+			"battery"
+		]
+	},
+
+
+"group/hardware2": {
+		"orientation": "inherit",
+		"modules": [
 			"memory",
 			"cpu",
 			"disk"
@@ -69,14 +72,9 @@
 
 "group/time": {
 	"orientation": "inherit",
- "drawer": {
-        "transition-duration": 500,
-        "children-class": "not-power",
-        "transition-left-to-right": false
-    },
 	     "modules": [
-		     "clock#time",
-		     "clock#date"
+		     "clock#date",
+		     "clock#time"
 	     ]
 
 },
