@@ -2,8 +2,8 @@ zstyle ':completion:*' completer _complete _ignored
 zstyle ':completion:*' max-errors 3 rehash true
 zstyle ':completion:*' menu select
 autoload -Uz compinit add-zsh-hook
-compinit -d ~/.cache/zcompdump
-HISTFILE=~/.cache/zsh_history
+compinit -d $HOME/.cache/zcompdump
+HISTFILE=$HOME/.cache/zsh_history
 HISTSIZE=500
 SAVEHIST=500
 setopt autocd extendedglob notify correct

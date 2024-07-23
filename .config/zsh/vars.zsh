@@ -5,6 +5,6 @@ export RCLONE_PROGRESS=true
 export RCLONE_HUMAN_READABLE=true
 #export MPC_FORMAT='%position%. %Artist% %performer% - %title% (%Album% %date%)'
 export DIFFPROG='nvim -d'  #pacdiff
-export PYTHONSTARTUP=~/.config/python/pythonrc #save python history to ~/.cache
+export PYTHONSTARTUP=$HOME/.config/python/pythonrc #save python history to ~/.cache
 export _ZO_ECHO=1
 export _ZO_RESOLVE_SYMLINKS=1
