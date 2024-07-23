@@ -2,7 +2,7 @@
 
 #this is a wrapper script for nnn.
 
-source ~/.config/zsh/nnn_vars.zsh
+source $HOME/.config/zsh/nnn_vars.zsh
 alias nsel="cat ${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.selection | tr '\0' '\n'"
 
 # To use a CLI opener, specify the `-c` option to `nnn`
