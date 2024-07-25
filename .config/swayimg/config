@@ -43,6 +43,24 @@ slideshow = no
 # Slideshow image display time (seconds)
 slideshow_time = 3
 
+# Run in gallery mode at startup (yes/no)
+gallery = no
+
+################################################################################
+# Gallery mode configuration
+################################################################################
+[gallery]
+# Max size of the thumbnail in pixels
+size = 200
+# Use anti-aliasing for thumbnails (yes/no)
+antialiasing = no
+# Background color of the window (RGB/RGBA)
+window = #00000000
+# Background color of the tile (RGB/RGBA)
+background = #202020
+# Background color of the selected tile (RGB/RGBA)
+select = #404040
+
 ################################################################################
 # Image list configuration
 ################################################################################
