@@ -164,7 +164,8 @@
 
     "clock#time": {
         "interval": 1,
-        "format": " {:%H:%M} "
+        "format": " {:%H:%M} ",
+        "tooltip": false
     },
 
     "clock#date": {
