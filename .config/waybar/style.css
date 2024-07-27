@@ -60,8 +60,8 @@
 #taskbar,
 #tray {
   border-radius: 10px;
-  /*color: #d5d5d5;*/ /*noirblaze*/
-  color: @text;   /*catppuccin-mocha*/
+  background-color: alpha(@base, 0.5);
+  color: @text; 
   margin-top: 5px;
   margin-bottom: 5px;
   padding-left: 10px;
@@ -174,12 +174,13 @@
 window#waybar.empty #window {
     border: none;	
     color: transparent;
+   background-color: transparent;
 }
 
 window#waybar.fullscreen #window {
    border-color: @base;
    color: @base;
-   background-color: @text; /*catppuccin*/
+   background-color: @text;
 }
 
 
@@ -193,13 +194,10 @@ window#waybar.fullscreen #window {
 }
 
 #workspaces button.active {
-    /*border-color: #d5d5d5;*/
-    /*color: #121212;*/
-    /*background-color: #d5d5d5;*/ /*noirblaze*/
     border-radius: 10px;
     border-color: @text;
     color: @base;
-    background-color: @text; /*catppuccin*/
+    background-color: @text; 
 }
 
 #workspaces button.urgent {
@@ -246,3 +244,12 @@ window#waybar.fullscreen #window {
     color: transparent;
     background-color: transparent;
 }
+
+#custom-arch {
+  margin-left: 20px;
+}
+
+#indicators {
+  margin-right: 20px;
+}
+
