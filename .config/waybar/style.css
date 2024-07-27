@@ -61,11 +61,11 @@
 #tray {
   border-radius: 10px;
   /*background-color: #121212*/ /*noirblaze*/
-  background-color: @base;
-  opacity: 0.8;
+  background-color: transparent;
   /*color: #d5d5d5;*/ /*noirblaze*/
   color: @text;   /*catppuccin-mocha*/
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
   margin-right: 10px;
@@ -176,7 +176,6 @@
 window#waybar.empty #window {
     border: none;	
     color: transparent;
-    background-color: transparent;
 }
 
 window#waybar.fullscreen #window {
@@ -199,12 +198,14 @@ window#waybar.fullscreen #window {
     /*border-color: #d5d5d5;*/
     /*color: #121212;*/
     /*background-color: #d5d5d5;*/ /*noirblaze*/
+    border-radius: 10px;
     border-color: @text;
     color: @base;
     background-color: @text; /*catppuccin*/
 }
 
 #workspaces button.urgent {
+    border-radius: 10px;
     border-color: @peach;
     color: @base;
     background-color: @red;
