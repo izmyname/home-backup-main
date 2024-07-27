@@ -60,8 +60,6 @@
 #taskbar,
 #tray {
   border-radius: 10px;
-  /*background-color: #121212*/ /*noirblaze*/
-  background-color: transparent;
   /*color: #d5d5d5;*/ /*noirblaze*/
   color: @text;   /*catppuccin-mocha*/
   margin-top: 5px;
