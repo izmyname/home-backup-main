@@ -11,10 +11,7 @@ border-radius=10
 default-timeout=5000
 layer=overlay
 
-
-# Colors -catppuccin - mocha
-
-background-color=#1e1e2eE6
+background-color=#1e1e2eb3
 text-color=#cdd6f4
 border-color=#89b4fa
 progress-color=over #313244
