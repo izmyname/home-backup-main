@@ -41,7 +41,7 @@
 
 /* The whole bar */
 #waybar {
-    background: transparent;
+    background: alpha(@base, 0.5);
     color: @text;
     font-family: Cantarell, Noto Sans, sans-serif;
     font-size: 14px;
@@ -60,8 +60,6 @@
 #taskbar,
 #tray {
   border-radius: 10px;
-  background-color: alpha(@base, 0.5);
-  color: @text; 
   margin-top: 5px;
   margin-bottom: 5px;
   padding-left: 10px;
@@ -174,7 +172,6 @@
 window#waybar.empty #window {
     border: none;	
     color: transparent;
-   background-color: transparent;
 }
 
 window#waybar.fullscreen #window {
