@@ -17,6 +17,8 @@
 
     // If height property would be not present, it'd be calculated dynamically
     "height": 35,
+    "margin-left": 20,
+    "margin-right": 10,
 
     "modules-left": [
 	"custom/arch",

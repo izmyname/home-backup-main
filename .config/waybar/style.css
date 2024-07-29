@@ -41,7 +41,8 @@
 
 /* The whole bar */
 #waybar {
-    background: alpha(@base, 0.5);
+    border-radius: 10px;
+    background: transparent;
     color: @text;
     font-family: Cantarell, Noto Sans, sans-serif;
     font-size: 14px;
@@ -60,6 +61,7 @@
 #taskbar,
 #tray {
   border-radius: 10px;
+  background-color: alpha(@base, 0.5);
   margin-top: 5px;
   margin-bottom: 5px;
   padding-left: 10px;
@@ -172,6 +174,7 @@
 window#waybar.empty #window {
     border: none;	
     color: transparent;
+    background-color: transparent;
 }
 
 window#waybar.fullscreen #window {
@@ -243,10 +246,10 @@ window#waybar.fullscreen #window {
 }
 
 #custom-arch {
-  margin-left: 20px;
+ /* margin-left: 20px;*/
 }
 
 #indicators {
-  margin-right: 20px;
+  /*margin-right: 20px;*/
 }
 
