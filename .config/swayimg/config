@@ -94,7 +94,7 @@ shadow = #000000a0
 # Show on startup (yes/no)
 show = yes
 # Timeout to hide info (seconds, 0 to always show)
-info_timeout = 5
+info_timeout = 0
 # Timeout to hide status message (seconds)
 status_timeout = 3
 
