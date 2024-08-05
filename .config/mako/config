@@ -10,7 +10,8 @@ border-size=1
 border-radius=10
 default-timeout=5000
 layer=overlay
-
+icons=1
+icon-path=/usr/share/icons/Papirus-Dark
 background-color=#1e1e2eb3
 text-color=#cdd6f4
 border-color=#89b4fa
