@@ -1,4 +1,5 @@
 # Swayimg configuration file.
+# vim: filetype=dosini
 
 # This file contains the default configuration.
 # The viewer searches for the config file in the following locations:
@@ -12,45 +13,44 @@
 # $ swayimg --config="general.scale=real"
 
 ################################################################################
-# General options
+# General configuration
 ################################################################################
 [general]
-
-# Initial scale (optimal/fit/width/height/fill/real)
-scale = optimal
-
-# Start in full screen mode (yes/no)
-fullscreen = no
-
-# Anti-aliasing (yes/no)
-antialiasing = no
-
-# Fix position of the image on the window surface (yes/no)
-fixed = yes
-
-# Background for transparent images (grid/RGB/RGBA, e.g. #112233)
-transparency = grid
-
+# Mode at startup (viewer/gallery)
+mode = viewer
 # Window position (parent or absolute coordinates, e.g. 100,200)
 position = parent
-# Window size (parent, image, or absolute size, e.g. 800,600)
+# Window size (fullscreen/parent/image, or absolute size, e.g. 800,600)
 size = parent
-# Window background mode/color (RGB/RGBA, e.g. #11223344)
-background = #00000000
 
+################################################################################
+# Viewer mode configuration
+################################################################################
+[viewer]
+# Window background color (RGB/RGBA)
+window = #00000000
+# Background for transparent images (grid/RGB/RGBA)
+transparency = grid
+# Default image scale (optimal/fit/width/height/fill/real)
+scale = optimal
+# Fix position of the image on the window surface (yes/no)
+fixed = yes
+# Anti-aliasing (yes/no)
+antialiasing = yes
 # Run slideshow at startup (yes/no)
 slideshow = no
 # Slideshow image display time (seconds)
 slideshow_time = 3
-
-# Run in gallery mode at startup (yes/no)
-gallery = no
+# Number of previously viewed images to store in cache
+history = 1
+# Number of preloaded images (read ahead)
+preload = 1
 
 ################################################################################
 # Gallery mode configuration
 ################################################################################
 [gallery]
-# Max size of the thumbnail in pixels
+# Max size of the thumbnail (pixels)
 size = 200
 # Use anti-aliasing for thumbnails (yes/no)
 antialiasing = no
@@ -73,10 +73,6 @@ loop = yes
 recursive = no
 # Open all files in the start directory (yes/no)
 all = yes
-# Number of previously viewed images to store in cache
-cache = 1
-# Number of preloaded images (read ahead)
-preload = 1
 
 ################################################################################
 # Font configuration
@@ -84,38 +80,42 @@ preload = 1
 [font]
 # Font name
 name = monospace
-# Font size (in pt)
+# Font size (pt)
 size = 14
-# Font color (RGB or RGBA, e.g. #11223344)
+# Font color (RGB/RGBA)
 color = #cccccc
-# Shadow color (RGB or RGBA, disable: #00000000)
+# Shadow color (RGB/RGBA)
 shadow = #000000a0
 
 ################################################################################
 # Image meta info scheme (format, size, EXIF, etc)
 ################################################################################
 [info]
-# Mode on startup (off/brief/full)
-mode = full
-# Hide image information after a timeout (seconds or percent for slideshow mode)
-timeout = 0
-# Display scheme for the "full" mode: position = content
-full.topleft = name,format,filesize,imagesize,exif
-full.topright = index
-full.bottomleft = scale,frame
-full.bottomright = status
-# Display scheme for the "brief" mode: position = content
-brief.topleft = index
-brief.topright = none
-brief.bottomleft = none
-brief.bottomright = status
+# Show on startup (yes/no)
+show = yes
+# Timeout to hide info (seconds, 0 to always show)
+info_timeout = 5
+# Timeout to hide status message (seconds)
+status_timeout = 3
+
+# Display scheme for viewer mode (position = content)
+[info.viewer]
+top_left = +name,+format,+filesize,+imagesize,+exif
+top_right = index
+bottom_left = scale,frame
+bottom_right = status
+
+# Display scheme for gallery mode (position = content)
+[info.gallery]
+top_left = none
+top_right = none
+bottom_left = none
+bottom_right = name,status
 
 ################################################################################
-# Key binding section: key = action [parameters]
-# Key can be specified with modifiers, e.g "Ctrl+Alt+Shift+x"
-# Use the `xkbcli` tool to get key name: `xkbcli interactive-wayland`
+# Viewer mode key binding configuration: key = action [parameters]
 ################################################################################
-[keys]
+[keys.viewer]
 F1 = help
 Home = first_file
 g = first_file
@@ -136,21 +136,22 @@ c = skip_file
 Shift+s = slideshow
 s = animation
 f = fullscreen
+Return = mode
 Shift+Left = step_left 10
 Shift+h = step_left 10
 Shift+Right = step_right 10
 Shift+l = step_right 10
-Up = step_up 10
-k = step_up 10
+Shift+Up = step_up 10
+Shift+k = step_up 10
 Shift+Down = step_down 10
-j = step_down 10
+Shift+j = step_down 10
 Equal = zoom +10
 Plus = zoom +10
-Shift+k = zoom +10
-Shift+Up = zoom +10
+k = zoom +10
+Up = zoom +10
 Minus = zoom -10
-Shift+j = zoom -10
-Shift+Down = zoom -10
+j = zoom -10
+Down = zoom -10
 w = zoom width
 Shift+w = zoom height
 z = zoom fit
@@ -167,11 +168,7 @@ i = info
 e = exec echo "Image: %"
 Escape = exit
 q = exit
-
-################################################################################
-# Mouse / touchpad configuration, same format as in [keys]
-################################################################################
-[mouse]
+# Mouse related
 ScrollLeft = step_right 5
 ScrollRight = step_left 5
 ScrollUp = step_down 5
@@ -183,4 +180,33 @@ Shift+ScrollDown = next_file
 Alt+ScrollUp = prev_frame
 Alt+ScrollDown = next_frame
 
-# vim: filetype=dosini
+################################################################################
+# Gallery mode key binding configuration: key = action [parameters]
+################################################################################
+[keys.gallery]
+Home = first_file
+g = first_file
+End = last_file
+Shift+g = last_file
+Left = step_left
+h = step_left
+Right = step_right
+l = step_right
+Up = step_up
+k = step_up
+Down = step_down
+j = step_down
+c = skip_file
+f = fullscreen
+Return = mode
+a = antialiasing
+r = reload
+i = info
+e = exec echo "Image: %"
+Escape = exit
+q = exit
+# Mouse related
+ScrollLeft = step_right
+ScrollRight = step_left
+ScrollUp = step_up
+ScrollDown = step_down
