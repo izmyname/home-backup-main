@@ -193,7 +193,7 @@ Alt+ScrollDown = next_frame
 ################################################################################
 [keys.gallery]
 F1 = help
-? = help
+Shift+? = help
 Home = first_file
 g = first_file
 End = last_file
