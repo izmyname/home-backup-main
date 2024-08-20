@@ -10,3 +10,4 @@ hash -d ext=/run/media
 hash -d opt=$HOME/.local/opt
 hash -d zsh=$HOME/.config/zsh
 hash -d hypr=$HOME/.config/hypr
+hash -d bgs=$HOME/.local/share/backgrounds/
