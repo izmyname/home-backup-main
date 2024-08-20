@@ -11,4 +11,4 @@ Dotfiles backup.
 
 <b>Vimium theme(mocha variant):</b> https://github.com/catppuccin/vimium
 
-<b>Other apps (arch repos and aur names):</b> <i>nnn-nerd tty-clock lsd zoxide duf dua ripgrep bat swayimg mpv trash-cli foot foot-terminfo fuzzel grim slurp hyprpaper hyprlock hypridle cliphist fd mpd-notification polkit-gnome</i>
+<b>Other apps (arch repos and aur names):</b> <i>nnn-nerd tty-clock lsd zoxide duf dua ripgrep bat swayimg mpv trash-cli foot foot-terminfo fuzzel grim slurp swww hyprlock hypridle cliphist fd mpd-notification polkit-gnome</i>
