@@ -26,6 +26,8 @@ size = parent
 sigusr1 = reload
 # Action performed by SIGUSR2 signal (same format as for key bindings)
 sigusr2 = next_file
+# Application ID and window class name
+app_id = swayimg
 
 ################################################################################
 # Viewer mode configuration
@@ -40,7 +42,7 @@ scale = optimal
 # Fix position of the image on the window surface (yes/no)
 fixed = yes
 # Anti-aliasing (yes/no)
-antialiasing = yes
+antialiasing = no
 # Run slideshow at startup (yes/no)
 slideshow = no
 # Slideshow image display time (seconds)
@@ -56,6 +58,10 @@ preload = 1
 [gallery]
 # Max size of the thumbnail (pixels)
 size = 200
+# Max number of thumbnails in cache, 0 to unlimit
+cache = 900
+# Fill the entire tile with thumbnail (yes/no)
+fill = yes
 # Use anti-aliasing for thumbnails (yes/no)
 antialiasing = no
 # Background color of the window (RGBA)
