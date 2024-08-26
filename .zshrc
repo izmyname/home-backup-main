@@ -11,3 +11,4 @@ eval "$(zoxide init --cmd cd zsh)"
 
 #display on startup
 cal
+task
