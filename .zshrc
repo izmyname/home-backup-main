@@ -10,4 +10,4 @@ source $HOME/.config/zsh/hashd.zsh
 eval "$(zoxide init --cmd cd zsh)"
 
 #display on startup
-cal&&echo -e '\n'&&echo -e '\033[1mTo do:\033[0m'&&task
+cal&&echo -e '\n\033[1mTo do:\033[0m'&&task
