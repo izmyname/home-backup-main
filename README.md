@@ -11,4 +11,11 @@ Dotfiles backup.
 
 <b>Vimium theme(mocha variant):</b> https://github.com/catppuccin/vimium
 
+<b>Enable icons for nnn file manager:</b> inside PKGBUILD add O_NERD=1 under build section.
+
+`build() {
+  cd nnn
+  make O_NERD=1
+}`
+
 <b>Other apps (arch repos and aur names):</b> <i>nnn-git tty-clock lsd zoxide duf dua ripgrep bat swayimg mpv trash-cli foot foot-terminfo fuzzel grim slurp swww hyprlock hypridle cliphist fd mpd-notification polkit-gnome</i>
