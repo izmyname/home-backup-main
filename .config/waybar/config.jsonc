@@ -131,7 +131,7 @@
 
 "disk": {
     "interval": 5,
-    "format": "  📂 {percentage_used}%  ",
+    "format": "  {percentage_used}%",
     "path": "/"
 },
     "backlight": {
