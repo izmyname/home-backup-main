@@ -110,7 +110,7 @@
 },
 
     "hyprland/language": {
-    "format": " {}",
+    "format": "    {}",
     "format-en": "EN",
     "format-ru": "RU",
     "keyboard-name": "at-translated-set-2-keyboard",
@@ -131,7 +131,7 @@
 
 "disk": {
     "interval": 5,
-    "format": "  {percentage_used}%",
+    "format": "     {percentage_used}%",
     "path": "/"
 },
     "backlight": {
@@ -164,13 +164,13 @@
 
     "clock#time": {
         "interval": 1,
-        "format": " {:%H:%M} ",
+        "format": "   {:%H:%M} ",
         "tooltip": false
     },
 
     "clock#date": {
       "interval": 10,
-      "format": "  {:%a %e %b}   ", // Icon: calendar-alt
+      "format": "   {:%a %e %b}   ", // Icon: calendar-alt
       "locale": "en_GB.UTF-8",
        "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
@@ -194,7 +194,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "   {usage}%  ", // Icon: microchip
+        "format": "   {usage}% ", // Icon: microchip
         "states": {
           "warning": 70,
           "critical": 90
