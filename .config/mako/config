@@ -1,11 +1,11 @@
 
 
-font=SF Pro Display 12
+font=Fira Code 12
 width=350
 height=3500
 padding=10
 max-history=30
-margin=10
+margin=20
 border-size=1
 border-radius=10
 default-timeout=5000
