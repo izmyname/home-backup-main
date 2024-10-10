@@ -110,7 +110,7 @@
 },
 
     "hyprland/language": {
-    "format": "    {}",
+    "format": " {}",
     "format-en": "EN",
     "format-ru": "RU",
     "keyboard-name": "at-translated-set-2-keyboard",
@@ -120,9 +120,9 @@
 
 "bluetooth": {
 	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
-	"format": "  ",
+	"format": " ",
 	"format-disabled": "", // an empty format will hide the module
-	"format-connected": " {num_connections}  ",
+	"format-connected": " {num_connections} ",
 	"tooltip-format": "{controller_alias}\t{controller_address}",
 	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
 	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
@@ -131,7 +131,7 @@
 
 "disk": {
     "interval": 5,
-    "format": "     {percentage_used}%",
+    "format": "  {percentage_used}%",
     "path": "/"
 },
     "backlight": {
@@ -149,7 +149,7 @@
             "critical": 15
         },
         // Connected to AC
-        "format": " {icon}  {capacity}%", // Icon: bolt
+        "format": " {icon}{capacity}%", // Icon: bolt
         // Not connected to AC
         "format-discharging": "{icon}  {capacity}%",
         "format-icons": [
@@ -164,13 +164,13 @@
 
     "clock#time": {
         "interval": 1,
-        "format": "   {:%H:%M} ",
+        "format": " {:%H:%M} ",
         "tooltip": false
     },
 
     "clock#date": {
       "interval": 10,
-      "format": "   {:%a %e %b}   ", // Icon: calendar-alt
+      "format": " {:%a %e %b} ", // Icon: calendar-alt
       "locale": "en_GB.UTF-8",
        "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
@@ -194,7 +194,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "   {usage}% ", // Icon: microchip
+        "format": " {usage}% ", // Icon: microchip
         "states": {
           "warning": 70,
           "critical": 90
@@ -203,7 +203,7 @@
 
        "memory": {
         "interval": 5,
-        "format": "  {}%  ", // Icon: memory
+        "format": " {}%  ", // Icon: memory
         "states": {
             "warning": 70,
             "critical": 90
@@ -219,7 +219,7 @@
     },
 
     "hyprland/window": {
-        "format": "  {}",
+        "format": " {}",
         "max-length": 40
     },
 
@@ -252,7 +252,7 @@
 
     "pulseaudio": {
         //"scroll-step": 1,
-        "format": "{icon}  {volume}% ",
+        "format": "{icon}{volume}% ",
         "format-bluetooth": "{icon}  {volume}% ",
         "format-muted": " ",
         "format-icons": {
@@ -290,7 +290,7 @@
     },
 
     "wireplumber": {
-    "format": "{icon}  {volume}% ",
+    "format": "{icon}{volume}% ",
     "format-muted": " ",
     "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
     "on-click-right": "flatpak run org.pipewire.Helvum",
