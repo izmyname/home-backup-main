@@ -3,6 +3,9 @@ Dotfiles backup.
 
 <b>Theme:</b> <i>catppuccin-mocha</i>
 
+<b>waybar-font:</b> <i>ttf-fira-code</i>
+
+
 <b>xcursor/hyprcursor:</b> <i>catppuccin-cursors-mocha</i>
 
 <b>Required fonts (as they are named in Arch repos):</b>  <i>ttf-dejavu-nerd otf-font-awesome noto-fonts</i>
@@ -18,4 +21,4 @@ Dotfiles backup.
  ` make O_NERD=1`
 `}`
 
-<b>Other apps (arch repos and aur names):</b> <i>nnn-git tty-clock lsd zoxide duf dua ripgrep bat swayimg mpv trash-cli foot foot-terminfo fuzzel grim slurp swww hyprlock hypridle cliphist fd mpd-notification polkit-gnome</i>
+<b>Other pkgs (arch repos and aur names):</b> <i>nnn-git tty-clock lsd zoxide duf dua ripgrep bat swayimg mpv trash-cli foot foot-terminfo fuzzel grim slurp swww hyprlock hypridle cliphist fd mpd-notification polkit-gnome</i>
