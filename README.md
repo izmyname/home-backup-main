@@ -3,12 +3,9 @@ Dotfiles backup.
 
 <b>Theme:</b> <i>catppuccin-mocha</i>
 
-<b>waybar/mako/fuzzel font:</b> <i>ttf-fira-code</i>
-
-
 <b>xcursor/hyprcursor:</b> <i>catppuccin-cursors-mocha</i>
 
-<b>Required fonts (as they are named in Arch repos):</b>  <i>ttf-dejavu-nerd otf-font-awesome noto-fonts</i>
+<b>Required fonts (as they are named in Arch repos):</b>  <i>ttf-fira-code ttf-dejavu-nerd otf-font-awesome noto-fonts</i>
 
 <b>Firefox theme(mocha variant):</b> https://github.com/catppuccin/firefox
 
