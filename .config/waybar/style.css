@@ -82,10 +82,16 @@
 }
 
 #battery.warning {
+    border-radius: 10px; 
+    margin-top: 2px;    
+    margin-bottom: 2px; 
     color: @peach;
 }
 
 #battery.critical {
+    border-radius: 10px; 
+    margin-top: 2px;    
+    margin-bottom: 2px; 
     color: @red;
 }
 
@@ -187,9 +193,6 @@ window#waybar.fullscreen #window {
 
 #workspaces button {
     border-radius: 10px;
-    border-top: 2px solid transparent;
-    /* To compensate for the top border and still have vertical centering */
-    padding-bottom: 2px;
     padding-left: 5px;
     padding-right: 5px;
     color: @text;
@@ -198,6 +201,8 @@ window#waybar.fullscreen #window {
 
 #workspaces button.active {
     border-radius: 10px;
+    margin-top: 2px;    
+    margin-bottom: 2px; 
     border-color: @text;
     color: @base;
     background-color: @text; 
@@ -206,6 +211,8 @@ window#waybar.fullscreen #window {
 
 #workspaces button.urgent {
     border-radius: 10px;
+    margin-top: 2px;    
+    margin-bottom: 2px; 
     border-color: @peach;
     color: @base;
     background-color: @red;
