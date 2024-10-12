@@ -21,7 +21,7 @@
     "margin-right": 10,
 
     "modules-left": [
-	"custom/arch",
+	      "custom/arch",
         "hyprland/workspaces",
         "hyprland/window"
 
@@ -31,10 +31,10 @@
     ],
     "modules-right": [
         "tray",
-    "group/hardware2",
-	"group/hardware",    
+        "group/hardware2",
+ 	      "group/hardware",    
         "hyprland/language",
-	"group/indicators"
+	      "group/indicators"
             ],
 
 
@@ -64,7 +64,7 @@
 	     "modules": [
 		     "bluetooth",
 		     "pulseaudio",
-		     /*"wireplumber,*/
+		    // "wireplumber",
 		     "network"
 
 	     ]
@@ -262,7 +262,7 @@
             "phone": " ",
             "portable": " ",
             "car": " ",
-            "default": ["", "  "]
+            "default": [" ", "  "]
         },
 	"on-click": "wpctl set-mute @DEFAULT_SINK@ toggle", 
         "on-click-right": "flatpak run org.pipewire.Helvum",
@@ -296,8 +296,12 @@
     "on-click-right": "flatpak run org.pipewire.Helvum",
     "on-click-middle": "flatpak run com.github.wwmm.easyeffects", 
     "max-volume": 100,
-    "format-icons": ["", "", ""]
-},
+    "format-icons": [ " ", "  "],
+
+    "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",           
+    "on-click-right": "flatpak run org.pipewire.Helvum",    
+    "on-click-middle": "flatpak run com.github.wwmm.easyeffects"
+  },
 
     "custom/arch": {
       "format": " ",
