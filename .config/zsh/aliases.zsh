@@ -30,7 +30,5 @@ alias flatfix='flatpak repair --user'
 alias mpd-notification="mpd-notification -H localhost -p 6600 -m $XDG_MUSIC_DIR -s 150 -t 10 & disown"
 alias easyeffects-daemon='flatpak run com.github.wwmm.easyeffects --gapplication-service & disown'
 alias pacclean='pacman -Qtdq | sudo pacman -Rns - ; pacman -Qqd | sudo pacman -Rsu -'
-alias updateall='yay && flatpak update --user'
-alias cleanall='pacman -Qtdq | sudo pacman -Rns - ;  pacman -Qqd | sudo pacman -Rsu - && flatpak uninstall --unused --user'
 alias nmount='$HOME/.config/nnn/plugins/nmount'
 alias mtpmount='$HOME/.config/nnn/plugins/mtpmount'
