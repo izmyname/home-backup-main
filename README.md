@@ -18,4 +18,4 @@ Dotfiles backup.
  ` make O_NERD=1`
 `}`
 
-<b>Other pkgs (arch repos and aur names):</b> <i>nnn-git tty-clock lsd zoxide duf dua ripgrep bat swayimg mpv trash-cli foot foot-terminfo fuzzel grim slurp swww hyprlock hypridle cliphist fd mpd-notification polkit-gnome</i>
+<b>Other pkgs (arch repos and aur names):</b> <i>nnn-git tty-clock lsd zoxide duf dua ripgrep bat swayimg mpv trash-cli foot foot-terminfo fuzzel grim slurp swww hyprlock hypridle cliphist fd mpd-notification hyprpolkitagent-</i>
