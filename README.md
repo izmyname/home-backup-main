@@ -13,6 +13,8 @@ Dotfiles backup.
 
 <b>Enable icons for nnn file manager:</b> inside PKGBUILD add O_NERD=1 under build section.
 
+<b>Set wallpaper/lockscreen:</b> ln -sf /path/to/wallpaper.png ~/.local/share/wallpaper, then - restart hyprpaper
+
 `build() {`
   `cd nnn`
  ` make O_NERD=1`
