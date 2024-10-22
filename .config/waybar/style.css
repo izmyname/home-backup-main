@@ -46,7 +46,6 @@
     color: @text;
     font-family: Fira Code, Noto Sans, sans-serif;
     font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
-    /*font-weight: bold;*/
     font-size: 16px;
 }
 
@@ -150,24 +149,16 @@
 }
 
 #pulseaudio.muted {
-  color: @teal;
-}
-
-#wireplumber {
-	/*No Styles*/
-}
-
-#wireplumber.muted {
- color:@teal;
- }
-
-#temperature {
     /* No styles */
 }
 
-#temperature.critical {
-    color: @red;
+#wireplumber {
+    /* No styles */
 }
+
+#wireplumber.muted {
+    /* No styles */
+ }
 
 #tray {
     /* No styles */
@@ -219,48 +210,6 @@ window#waybar.fullscreen #window {
     text-shadow: none;
 }
 
-#taskbar button {
-    box-shadow: none;
-    padding: 0px;
-    border-radius: 9px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    margin-left: 0px;
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-right: 0px;
-    color: @wb-color;
-    animation: tb_normal 20s ease-in-out 1;
-}
-
-#taskbar button.active {
-    background: @text;
-    margin-left: 3px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-right: 3px;
-    animation: tb_active 20s ease-in-out 1;
-    transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
-}
-
-#taskbar button:hover {
-    background: @peach;
-    animation: tb_hover 20s ease-in-out 1;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
-}
-
-#taskbar.empty {
-    border: none;	
-    color: transparent;
-    background-color: transparent;
-    text-shadow: none;
-}
-
 #custom-arch {
  /* margin-left: 20px;*/
 }
-
-#indicators {
-  /*margin-right: 20px;*/
-}
-

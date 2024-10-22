@@ -83,33 +83,7 @@
     // Modules
     // -------------------------------------------------------------------------
 
-"mpd": {
-    "format": " {stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}({elapsedTime:%M:%S}/{totalTime:%M:%S}) ",
-    "format-disconnected": "Disconnected ",
-    "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
-    "interval": 10,
-    "consume-icons": {
-        "on": " " // Icon shows only when "consume" is on
-    },
-    "random-icons": {
-        "off": "<span color=\"#f53c3c\"></span> ", // Icon grayed out when "random" is off
-        "on": " "
-    },
-    "repeat-icons": {
-        "on": " "
-    },
-    "single-icons": {
-        "on": "1 "
-    },
-    "state-icons": {
-        "paused": "",
-        "playing": ""
-    },
-    "tooltip-format": "{artist} - {album} - {title}",
-    "tooltip-format-disconnected": "MPD (disconnected)"
-},
-
-    "hyprland/language": {
+"hyprland/language": {
     "format": " {}",
     "format-en": "EN",
     "format-ru": "RU",
@@ -142,7 +116,7 @@
 },
 
 
-    "battery": {
+"battery": {
         "interval": 10,
         "states": {
             "warning": 30,
@@ -162,13 +136,13 @@
         "tooltip": true
     },
 
-    "clock#time": {
+"clock#time": {
         "interval": 1,
         "format": " {:%H:%M}",
         "tooltip": false
     },
 
-    "clock#date": {
+"clock#date": {
       "interval": 10,
       "format": " {:%a %e %b} ", // Icon: calendar-alt
       "locale": "en_GB.UTF-8",
@@ -192,7 +166,7 @@
     
     },
 
-    "cpu": {
+"cpu": {
         "interval": 5,
         "format": " {usage}% ", // Icon: microchip
         "states": {
@@ -210,7 +184,7 @@
         }
     },
 
-    "network": {
+"network": {
         "interval": 5,
         "format-wifi": " ", // Icon: wifi
         "format-ethernet": " ", // Icon: ethernet
@@ -218,12 +192,12 @@
         "tooltip-format": "{ifname}:{essid} {ipaddr}"
     },
 
-    "hyprland/window": {
+"hyprland/window": {
         "format": " {}",
         "max-length": 40
     },
 
-    "hyprland/workspaces": {
+"hyprland/workspaces": {
         "all-outputs": false,
         "disable-scroll": true,
         "format": "{name}"
@@ -231,26 +205,7 @@
 	
     },
 
-    
-"wlr/taskbar": {
-    "format": "{icon}",
-    "icon-size": 16,
-    "icon-theme": "Papirus-Dark",
-    "tooltip-format": "{title}",
-    "active-first": false,
-    "sort-by-app-id": true,
-    "on-click": "minimize-raise",
-    "on-click-middle": "close",
-    "on-click-right": "maximize",
-    "ignore-list": [
-    ],
-    "app_ids-mapping": {
-    },
-    "rewrite": {
-    }
-},
-
-    "pulseaudio": {
+"pulseaudio": {
         //"scroll-step": 1,
         "format": "{icon}{volume}% ",
         "format-bluetooth": "{icon}{volume}% ",
@@ -270,26 +225,12 @@
 	"ignored-sinks": ["Easy Effects Sink"]
     },
 
-    "temperature": {
-      "critical-threshold": 80,
-      "interval": 5,
-      "format": "{icon}  {temperatureC}°C",
-      "format-icons": [
-          "", // Icon: temperature-empty
-          "", // Icon: temperature-quarter
-          "", // Icon: temperature-half
-          "", // Icon: temperature-three-quarters
-          ""  // Icon: temperature-full
-      ],
-      "tooltip": true
-    },
-
-    "tray": {
+"tray": {
         "icon-size": 18,
         "spacing": 5
     },
 
-    "wireplumber": {
+"wireplumber": {
     "format": "{icon}{volume}% ",
     "format-muted": " ",
     "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
@@ -303,7 +244,7 @@
     "on-click-middle": "flatpak run com.github.wwmm.easyeffects"
   },
 
-    "custom/arch": {
+"custom/arch": {
       "format": " ",
       "tooltip": false
     }       
