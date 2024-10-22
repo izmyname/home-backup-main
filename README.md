@@ -1,7 +1,7 @@
 # home_backup
 Dotfiles backup.
 
-<b>After installation, run</b> `systemctl --user enable hyprland-session.service hypridle.service  hyprpolkitagent.service waybar.service foot-server.service`
+<b>After installation, run</b> `systemctl --user enable hypridle.service  hyprpolkitagent.service waybar.service foot-server.service`
 
 <b>To enable mpd</b> `mkdir ~/.config/playlists mkdir ~/.local/state/mpd` then `systemctl --user enable mpd.service mpd-notification.service`
 
