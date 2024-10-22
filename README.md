@@ -1,6 +1,10 @@
 # home_backup
 Dotfiles backup.
 
+<b>After installation, run</b> `systemctl --user enable hyprland-session.service hypridle.service  hyprpolkitagent.service waybar.service foot-server.service`
+
+<b>To enable mpd</b> `mkdir ~/.config/playlists mkdir ~/.local/state/mpd` then `systemctl --user enable mpd.service mpd-notification.service`
+
 <b>Theme:</b> <i>catppuccin-mocha</i>
 
 <b>xcursor/hyprcursor:</b> <i>catppuccin-cursors-mocha</i>
@@ -21,4 +25,4 @@ Dotfiles backup.
 
 <b>Set wallpaper/lockscreen:</b> ln -sf /path/to/wallpaper.png ~/.local/share/wallpaper, then - reload hyprpaper (mod+shift+r, by default)
 
-<b>Other pkgs (arch repos and aur names):</b> <i>nnn-git tty-clock lsd zoxide duf dua ripgrep bat swayimg mpv trash-cli foot foot-terminfo fuzzel grim slurp hyprpaper hyprlock hypridle cliphist fd mpd-notification hyprpolkitagent</i>
+<b>Other pkgs (arch repos and aur names):</b> <i>nnn-git tty-clock lsd zoxide duf dua ripgrep bat swayimg mpv mpc mpd trash-cli foot foot-terminfo fuzzel grim slurp hyprpaper hyprlock hypridle cliphist fd mpd-notification hyprpolkitagent</i>
