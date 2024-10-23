@@ -5,6 +5,7 @@ BindsTo=graphical-session.target
 Before=graphical-session.target
 Wants=graphical-session-pre.target
 After=graphical-session-pre.target
+Upholds=waybar.service
 
 [Service]
 Type=notify
