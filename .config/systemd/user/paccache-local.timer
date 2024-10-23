@@ -1,5 +1,5 @@
 [Unit]
-Description=Discard unused packages weekly
+Description=Discard unused local AUR packages weekly
 
 [Timer]
 OnCalendar=weekly

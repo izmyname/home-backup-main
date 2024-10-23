@@ -1,5 +1,5 @@
 [Unit]
-Description=Remove unused cached package files
+Description=Remove cached local AUR package files, except the most recent ones.
 
 [Service]
 Type=oneshot
